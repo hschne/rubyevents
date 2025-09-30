@@ -1,3 +1,8 @@
-<%= async_combobox_options @speakers,
-      value: proc { |speaker| speaker.name },
-      next_page: @pagy.next ? @pagy.page + 1 : nil %>
+<%= turbo_stream.update "speakers" do %>
+  <% cache [@speakers.except(:order).pluck(:id, :updated_at).hash] do %>
+    <%= render partial: "speakers/speaker",
+    collection: @speakers,
+    as: :speaker,
+    cached: true %>
+  <% end %>
+<% end %>

@@ -16,6 +16,10 @@ module User::Searchable
         .order(combined_score: :asc)
     end
 
+    scope :scored, -> do
+      where("bm25(users_search_index, 2, 1) <= ?", 0)
+    end
+
     after_save_commit :reindex
   end
 

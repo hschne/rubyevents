@@ -1,5 +1,4 @@
 class SpeakersController < ApplicationController
-
   skip_before_action :authenticate_user!
   before_action :set_speaker, only: %i[show]
 
@@ -22,9 +21,7 @@ class SpeakersController < ApplicationController
 
   def search
     @speakers = User.speakers.order(:name).with_talks
-    search = params[:s] || ""
-    @speakers = @speakers.ft_search(search).with_snippets.ranked
-    @pagy, @speakers = pagy(@speakers, gearbox_extra: true, gearbox_limit: [200, 300, 600], page: params[:page])
+    @speakers = @speakers.ft_search(params[:s]).with_snippets.ranked.scored
   end
 
   # GET /speakers/1
