@@ -1,6 +1,8 @@
 class SpeakersController < ApplicationController
+
   skip_before_action :authenticate_user!
   before_action :set_speaker, only: %i[show]
+
   include Pagy::Backend
 
   # GET /speakers
@@ -16,6 +18,13 @@ class SpeakersController < ApplicationController
       format.turbo_stream
       format.json
     end
+  end
+
+  def search
+    @speakers = User.speakers.order(:name).with_talks
+    search = params[:s] || ""
+    @speakers = @speakers.ft_search(search).with_snippets.ranked
+    @pagy, @speakers = pagy(@speakers, gearbox_extra: true, gearbox_limit: [200, 300, 600], page: params[:page])
   end
 
   # GET /speakers/1

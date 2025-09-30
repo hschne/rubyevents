@@ -1,0 +1,3 @@
+<%= async_combobox_options @speakers,
+      value: proc { |speaker| speaker.name },
+      next_page: @pagy.next ? @pagy.page + 1 : nil %>

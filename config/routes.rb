@@ -83,7 +83,11 @@ Rails.application.routes.draw do
 
   resources :watched_talks, only: [:index]
 
-  resources :speakers, param: :slug, only: [:index, :show]
+  resources :speakers, param: :slug, only: [:index, :show] do
+    collection do
+      get :search
+    end
+  end
   resources :profiles, param: :slug, only: [:show, :update, :edit]
   resources :events, param: :slug, only: [:index, :show, :update, :edit] do
     resources :event_participations, only: [:create, :destroy]
