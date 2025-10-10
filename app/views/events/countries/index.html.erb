@@ -9,6 +9,8 @@
     </div>
   </div>
 
+  <div id="map" class="w-full h-96 mt-6 rounded-lg" data-controller="map" data-map-geojson-value="<%= @geojson.to_json %>"></div>
+
   <div class="mt-6">
     <% @countries_by_continent.each do |continent, countries| %>
       <% if countries.any? %>

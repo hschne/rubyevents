@@ -35,6 +35,11 @@ organisations.each do |org|
   events.each do |event_data|
     event = Event.find_or_create_by(slug: event_data["slug"])
 
+    lng, lat = nil, nil
+    if event_data["coordinates"].present?
+      lng, lat = event_data["coordinates"].split(",").map(&:to_f)
+    end
+
     event.update(
       name: event_data["title"],
       date: event_data["date"] || event_data["published_at"],
@@ -47,7 +52,9 @@ organisations.each do |org|
       kind: event.static_metadata.kind,
       cfp_close_date: event_data["cfp_close_date"],
       cfp_link: event_data["cfp_link"],
-      cfp_open_date: event_data["cfp_open_date"]
+      cfp_open_date: event_data["cfp_open_date"],
+      lng: lng,
+      lat: lat
     )
 
     puts event.slug unless Rails.env.test?

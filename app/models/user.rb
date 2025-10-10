@@ -12,7 +12,7 @@
 #  github_handle       :string           uniquely indexed
 #  github_metadata     :json             not null
 #  linkedin            :string           default(""), not null
-#  location            :string
+#  location            :string           default("")
 #  mastodon            :string           default(""), not null
 #  name                :string           indexed
 #  password_digest     :string

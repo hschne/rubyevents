@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2025_09_30_165602) do
+ActiveRecord::Schema[8.1].define(version: 2025_10_10_195110) do
   create_table "_litestream_lock", id: false, force: :cascade do |t|
     t.integer "id"
   end
@@ -126,6 +126,8 @@ ActiveRecord::Schema[8.1].define(version: 2025_09_30_165602) do
     t.string "date_precision", default: "day", null: false
     t.date "end_date"
     t.string "kind", default: "event", null: false
+    t.decimal "lat", precision: 10, scale: 7
+    t.decimal "lng", precision: 10, scale: 7
     t.string "name", default: "", null: false
     t.integer "organisation_id", null: false
     t.string "slug", default: "", null: false
