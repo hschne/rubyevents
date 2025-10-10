@@ -10,7 +10,7 @@
   slug: rossconf-2015
   website: http://www.rossconf.io/
   twitter: rossconf
-
+  coordinates: 16.3713095,48.20806959999999
 - id: rossconf-2015-berlin
   title: ROSSConf Berlin 2015
   description: ''
@@ -22,7 +22,7 @@
   slug: rossconf-2015-berlin
   website: http://www.rossconf.io/
   twitter: rossconf
-
+  coordinates: 13.404954,52.52000659999999
 - id: rossconf-2018
   title: ROSSConf 2018
   description: ''
@@ -34,7 +34,7 @@
   slug: rossconf-2018
   website: https://rossconfams.eventbrite.co.uk
   twitter: rossconf
-
+  coordinates: 4.9041389,52.3675734
 - id: rossconf-2020
   title: ROSSConf 2020
   description: ''

@@ -10,7 +10,7 @@
   slug: ruby-for-good-2016
   website: http://www.rubyforgood.org/
   twitter: rubyforgood
-
+  coordinates: "-77.0368707,38.9071923"
 - id: ruby-for-good-by-the-bay-2020
   title: Ruby for Good by the Bay 2020
   description: ''
@@ -22,7 +22,7 @@
   slug: ruby-for-good-2020
   website: https://rubybythebay.org/
   twitter: rubyforgood
-
+  coordinates: "-122.4852507,37.8590937"
 - id: ruby-for-good-2023
   title: Ruby for Good 2023
   description: ''
@@ -34,7 +34,7 @@
   slug: ruby-for-good-2023
   website: https://rubyforgood.org/events
   twitter: rubyforgood
-
+  coordinates: "-77.0368707,38.9071923"
 - id: ruby-for-good-2024
   title: Ruby for Good 2024
   description: ''
@@ -46,7 +46,7 @@
   slug: ruby-for-good-2024
   website: https://rubyforgood.org/events
   twitter: rubyforgood
-
+  coordinates: "-77.0368707,38.9071923"
 - id: ruby-for-good-ghent-2025
   title: Ruby for Good - Ghent 2025
   description: ''
@@ -58,3 +58,4 @@
   slug: ruby-for-good-2025
   website: https://RubyInGhent.org
   twitter: rubyforgood
+  coordinates: 3.7303853,51.0499922

@@ -10,16 +10,16 @@
   slug: rubyconf-kl-2016
   website: http://rubyconf.my/2016
   twitter: rubyconfmy
-
+  coordinates: 101.6840589,3.1319197
 - id: PLrD6VJeUSN28nfWhU5PwlD-9vgPNV3WsU
   title: RubyConf MY 2017
   location: Selangor, Malaysia
-  description: "Auditorium, Magic @ Cyberjaya, Selangor, Malaysia"
-  published_at: "2017-10-13"
-  start_date: "2017-10-12"
-  end_date: "2017-10-13"
+  description: Auditorium, Magic @ Cyberjaya, Selangor, Malaysia
+  published_at: '2017-10-13'
+  start_date: '2017-10-12'
+  end_date: '2017-10-13'
   channel_id: UCtayOVyGOpjYCcNzVCgR0Xg
-  year: "2017"
+  year: '2017'
   videos_count: 21
   metadata_parser: YouTube::VideoMetadata
   slug: rubyconf-my-2017
@@ -27,13 +27,13 @@
   featured_background: "#FFFFFF"
   featured_color: "#1E2235"
   website: https://rubyconf.my/2017/
-
+  coordinates: 101.5248055,3.509247
 - id: rubyconf-my-2018
   title: RubyConf MY 2018
   location: Malaysia
   description: ''
-  start_date: "2018-10-25"
-  end_date: "2018-10-26"
+  start_date: '2018-10-25'
+  end_date: '2018-10-26'
   channel_id: UCtayOVyGOpjYCcNzVCgR0Xg
   year: '2018'
   videos_count: 21
@@ -43,3 +43,4 @@
   featured_background: "#000000"
   featured_color: "#FFFFFF"
   website: https://rubyconf.my
+  coordinates: 101.975766,4.210484

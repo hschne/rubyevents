@@ -2,11 +2,11 @@
 - id: sin-city-ruby-2022
   title: Sin City Ruby 2022
   location: Las Vegas, NV
-  description: "March 24-25, Las Vegas, Tropicana Las Vegas"
-  start_date: "2022-03-24"
-  end_date: "2022-03-25"
+  description: March 24-25, Las Vegas, Tropicana Las Vegas
+  start_date: '2022-03-24'
+  end_date: '2022-03-25'
   channel_id: UC_tX5G6twhuwWZQptcc3DOA
-  year: "2022"
+  year: '2022'
   videos_count: 12
   metadata_parser: YouTube::VideoMetadata
   slug: sin-city-ruby-2022
@@ -14,15 +14,15 @@
   banner_background: "#000"
   featured_background: "#000"
   featured_color: "#FF0"
-
+  coordinates: "-115.1391009,36.171563"
 - id: sin-city-ruby-2024
   title: Sin City Ruby 2024
   location: Las Vegas, NV
-  description: "March 21-22, Las Vegas, Tropicana Las Vegas"
-  start_date: "2024-03-21"
-  end_date: "2024-03-22"
+  description: March 21-22, Las Vegas, Tropicana Las Vegas
+  start_date: '2024-03-21'
+  end_date: '2024-03-22'
   channel_id: UC_tX5G6twhuwWZQptcc3DOA
-  year: "2024"
+  year: '2024'
   videos_count: 12
   metadata_parser: YouTube::VideoMetadata
   slug: sin-city-ruby-2024
@@ -30,15 +30,15 @@
   banner_background: "#000"
   featured_background: "#000"
   featured_color: "#FF0"
-
+  coordinates: "-115.1391009,36.171563"
 - id: sin-city-ruby-2025
   title: Sin City Ruby 2025
   location: Las Vegas, NV
-  description: "April 10-11, 2025, Las Vegas, NV, MGM Grand"
-  start_date: "2025-04-10"
-  end_date: "2025-04-11"
+  description: April 10-11, 2025, Las Vegas, NV, MGM Grand
+  start_date: '2025-04-10'
+  end_date: '2025-04-11'
   channel_id: UC_tX5G6twhuwWZQptcc3DOA
-  year: "2025"
+  year: '2025'
   videos_count: 12
   metadata_parser: YouTube::VideoMetadata
   slug: sin-city-ruby-2025
@@ -46,3 +46,4 @@
   banner_background: "#FFFFFF"
   featured_background: "#8C020E"
   featured_color: "#FFFFFF"
+  coordinates: "-115.1391009,36.171563"

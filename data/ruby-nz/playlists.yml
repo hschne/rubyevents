@@ -11,7 +11,7 @@
   website: https://retreat.ruby.nz
   status: Cancelled
   twitter: RubyNewZealand
-
+  coordinates: 172.636648,-43.5320301
 - id: ruby-retreat-2023
   title: Ruby Retreat 2023
   description: ''
@@ -22,7 +22,7 @@
   metadata_parser: YouTube::VideoMetadata
   slug: ruby-retreat-2023
   website: https://retreat.ruby.nz
-
+  coordinates: 171.6690673,-43.1571159
 - id: ruby-retreat-2025
   title: Ruby Retreat 2025
   description: ''
@@ -33,3 +33,4 @@
   metadata_parser: YouTube::VideoMetadata
   slug: ruby-retreat-2025
   website: https://retreat.ruby.nz
+  coordinates: 174.7638314,-36.6311778

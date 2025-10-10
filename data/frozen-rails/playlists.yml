@@ -10,7 +10,7 @@
   slug: frozen-rails-2010
   website: https://2010.frozenrails.eu
   twitter: frozenrails
-
+  coordinates: 24.938379,60.16985569999999
 - id: frozen-rails-2011
   title: Frozen Rails 2011
   description: ''
@@ -22,7 +22,7 @@
   slug: frozen-rails-2011
   website: https://2011.frozenrails.eu
   twitter: frozenrails
-
+  coordinates: 24.938379,60.16985569999999
 - id: frozen-rails-2012
   title: Frozen Rails 2012
   description: ''
@@ -34,7 +34,7 @@
   slug: frozen-rails-2012
   website: https://2012.frozenrails.eu
   twitter: frozenrails
-
+  coordinates: 24.938379,60.16985569999999
 - id: frozen-rails-2014
   title: Frozen Rails 2014
   description: ''
@@ -46,3 +46,4 @@
   slug: frozen-rails-2014
   website: http://2014.frozenrails.eu/
   twitter: frozenrails
+  coordinates: 24.938379,60.16985569999999

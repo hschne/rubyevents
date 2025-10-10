@@ -1,3 +1,4 @@
+---
 - id: PLNyYRB_d4fk2Hz8_HuHIAPv5dJGrnxh14
   title: RubyConf India 2014
   description: ''
@@ -10,7 +11,7 @@
   website: https://2014.rubyconfindia.org/
   twitter: rubyconfindia
   playlist: https://www.youtube.com/playlist?list=PLNyYRB_d4fk2Hz8_HuHIAPv5dJGrnxh14
-
+  coordinates: 74.12399599999999,15.2993265
 - id: UCRNZy_ouJ1ai_uYwDBR2J5Q
   title: RubyConf India 2015
   description: ''
@@ -23,7 +24,7 @@
   website: https://2015.rubyconfindia.org/
   twitter: rubyconfindia
   playlist: https://www.youtube.com/channel/UCRNZy_ouJ1ai_uYwDBR2J5Q
-
+  coordinates: 74.12399599999999,15.2993265
 - id: PLNyYRB_d4fk2LfGLjyv8Oa-ruc4EgkfAQ
   title: RubyConf India 2016
   description: ''
@@ -36,7 +37,7 @@
   website: https://2016.rubyconfindia.org/
   twitter: rubyconfindia
   playlist: https://www.youtube.com/playlist?list=PLNyYRB_d4fk2LfGLjyv8Oa-ruc4EgkfAQ
-
+  coordinates: 76.26730409999999,9.9312328
 - id: PLe872Yf6CJWHc6XDdHo_22hktStG866-6
   title: RubyConf India 2017
   description: ''
@@ -49,7 +50,7 @@
   website: http://2017.rubyconfindia.org/
   twitter: rubyconfindia
   playlist: https://www.youtube.com/playlist?list=PLe872Yf6CJWHc6XDdHo_22hktStG866-6
-
+  coordinates: 76.26730409999999,9.9312328
 - id: PLe872Yf6CJWGYKLny9jFs9mLv0Z94m8k4
   title: RubyConf India 2018
   description: ''
@@ -62,7 +63,7 @@
   website: https://2018.rubyconfindia.org/
   twitter: RubyConfIndia
   playlist: https://www.youtube.com/playlist?list=PLe872Yf6CJWGYKLny9jFs9mLv0Z94m8k4
-
+  coordinates: 77.57750899999999,12.9628669
 - id: PLbgP71NCXCqEFr8nuY2mhAobKv_ldqL2f
   title: RubyConf India 2019
   description: ''
@@ -75,7 +76,7 @@
   website: http://rubyconfindia.org/
   twitter: rubyconfindia
   playlist: https://www.youtube.com/playlist?list=PLbgP71NCXCqEFr8nuY2mhAobKv_ldqL2f
-
+  coordinates: 74.12399599999999,15.2993265
 - id: rubyconf-india-2020
   title: RubyConf India 2020 (Cancelled)
   description: ''
@@ -88,7 +89,7 @@
   website: https://rubyconfindia.org
   status: Cancelled
   twitter: rubyconfindia
-
+  coordinates: 74.12399599999999,15.2993265
 - id: rubyconf-india-2022
   title: RubyConf India 2022
   description: ''
@@ -100,16 +101,17 @@
   slug: rubyconf-india-2022
   website: https://rubyconf.in/
   twitter: rubyconfindia
-
+  coordinates: 73.8786239,18.5246091
 - id: PLbgP71NCXCqGwy6QzXbGmX43qtGYkhntL
   title: RubyConf India 2023
   location: Pune, India
-  description: "Hyatt Regency Pune & Residences Nagar Road, Sakore Nagar, Viman Nagar, Pune, Pune, India 411014"
-  published_at: "2023-09-15"
-  start_date: "2023-08-26"
-  end_date: "2023-08-27"
-  channel_id: "emergingtechnologytrust"
-  year: "2023"
+  description: Hyatt Regency Pune & Residences Nagar Road, Sakore Nagar, Viman Nagar,
+    Pune, Pune, India 411014
+  published_at: '2023-09-15'
+  start_date: '2023-08-26'
+  end_date: '2023-08-27'
+  channel_id: emergingtechnologytrust
+  year: '2023'
   videos_count: 16
   metadata_parser: YouTube::VideoMetadata
   slug: rubyconf-india-2023
@@ -117,16 +119,17 @@
   featured_background: "#15162B"
   featured_color: "#FFFFFF"
   website: https://rubyconf.in
-
+  coordinates: 73.8786239,18.5246091
 - id: PLbgP71NCXCqE1fhfOAOpmKjRbvHojsZX5
   title: RubyConf India 2024
   location: Jaipur, India
-  description: "Clarks Amer Hotel Jawahar Lal Nehru Marg, Opposite Fortis Escorts Hospital, Jaipur, Rajasthan 302018"
-  published_at: "2024-12-20"
-  start_date: "2024-11-29"
-  end_date: "2024-11-30"
-  channel_id: "emergingtechnologytrust"
-  year: "2024"
+  description: Clarks Amer Hotel Jawahar Lal Nehru Marg, Opposite Fortis Escorts Hospital,
+    Jaipur, Rajasthan 302018
+  published_at: '2024-12-20'
+  start_date: '2024-11-29'
+  end_date: '2024-11-30'
+  channel_id: emergingtechnologytrust
+  year: '2024'
   videos_count: 14
   metadata_parser: YouTube::VideoMetadata
   slug: rubyconf-india-2024
@@ -134,13 +137,14 @@
   featured_background: "#15162B"
   featured_color: "#FFFFFF"
   website: https://rubyconf.in
-  cfp_open_date: "2024-07-23"
-  cfp_close_date: "2024-09-25"
-  cfp_link: "https://www.papercall.io/rubyconf-india-2024"
-
+  cfp_open_date: '2024-07-23'
+  cfp_close_date: '2024-09-25'
+  cfp_link: https://www.papercall.io/rubyconf-india-2024
+  coordinates: 75.7872709,26.9124336
 - id: PLbgP71NCXCqFeiIq8ITx36QRuaJxdZwdP
   title: RubyConf India 2025
-  description: "Clarks Amer Hotel, Jawahar Lal Nehru Marg, Opposite Fortis Escorts Hospital, Jaipur, Rajasthan 302018"
+  description: Clarks Amer Hotel, Jawahar Lal Nehru Marg, Opposite Fortis Escorts
+    Hospital, Jaipur, Rajasthan 302018
   location: Jaipur, India
   kind: conference
   start_date: '2025-09-12'
@@ -151,6 +155,7 @@
   banner_background: "#15162B"
   featured_background: "#15162B"
   featured_color: "#FFFFFF"
-  cfp_open_date: "2025-05-22"
-  cfp_close_date: "2025-07-15"
-  cfp_link: "https://www.papercall.io/rubyconf-india-2025"
+  cfp_open_date: '2025-05-22'
+  cfp_close_date: '2025-07-15'
+  cfp_link: https://www.papercall.io/rubyconf-india-2025
+  coordinates: 75.7872709,26.9124336

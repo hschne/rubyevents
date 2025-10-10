@@ -1,13 +1,14 @@
 ---
 - id: PL4jngagx9f7TIyNkSkS15oDrVPCa7LXsT
   title: Helvetic Ruby 2023
-  location: "Bern, Switzerland"
-  description: Talks from the 2023 edition of Helvetic Ruby, a local Ruby conference in Switzerland.
-  published_at: "2023-11-24"
-  start_date: "2023-11-24"
-  end_date: "2023-11-24"
+  location: Bern, Switzerland
+  description: Talks from the 2023 edition of Helvetic Ruby, a local Ruby conference
+    in Switzerland.
+  published_at: '2023-11-24'
+  start_date: '2023-11-24'
+  end_date: '2023-11-24'
   channel_id: UChetoakh7nU0EXrKN8QFUUA
-  year: "2023"
+  year: '2023'
   videos_count: 13
   metadata_parser: YouTube::VideoMetadata
   slug: helveticruby-2023
@@ -15,16 +16,17 @@
   featured_background: "#F2EDE1"
   featured_color: "#810202"
   website: https://helvetic-ruby.ch/2023
-
+  coordinates: 7.4474468,46.9479739
 - id: PL4jngagx9f7RGaAjXE0PR3z_jsA9cyCji
   title: Helvetic Ruby 2024
-  location: "Zürich, Switzerland"
-  description: Talks from the 2024 edition of Helvetic Ruby, a local Ruby conference in Switzerland.
-  published_at: "2024-06-04"
-  start_date: "2024-05-17"
-  end_date: "2024-05-17"
+  location: Zürich, Switzerland
+  description: Talks from the 2024 edition of Helvetic Ruby, a local Ruby conference
+    in Switzerland.
+  published_at: '2024-06-04'
+  start_date: '2024-05-17'
+  end_date: '2024-05-17'
   channel_id: UChetoakh7nU0EXrKN8QFUUA
-  year: "2024"
+  year: '2024'
   videos_count: 13
   metadata_parser: YouTube::VideoMetadata
   slug: helveticruby-2024
@@ -32,20 +34,21 @@
   featured_background: "#F2EDE1"
   featured_color: "#810202"
   website: https://helvetic-ruby.ch/2024
-  cfp_open_date: "2024-01-19"
-  cfp_close_date: "2024-02-25"
-  cfp_link: "https://helvetic-ruby.ch/call-for-speakers"
-
+  cfp_open_date: '2024-01-19'
+  cfp_close_date: '2024-02-25'
+  cfp_link: https://helvetic-ruby.ch/call-for-speakers
+  coordinates: 8.541694,47.3768866
 - id: PL4jngagx9f7SFyP6YwC_NkOsHtmyj4FYh
   title: Helvetic Ruby 2025
-  location: "Geneva, Switzerland"
-  kind: "conference"
-  description: "Helvetic Ruby 2025 is a single-track conference for Ruby programming language enthusiasts and professionals from Switzerland and abroad. "
-  published_at: "2025-06-26"
-  start_date: "2025-05-22"
-  end_date: "2025-05-23"
+  location: Geneva, Switzerland
+  kind: conference
+  description: 'Helvetic Ruby 2025 is a single-track conference for Ruby programming
+    language enthusiasts and professionals from Switzerland and abroad. '
+  published_at: '2025-06-26'
+  start_date: '2025-05-22'
+  end_date: '2025-05-23'
   channel_id: UChetoakh7nU0EXrKN8QFUUA
-  year: "2025"
+  year: '2025'
   videos_count: 0
   metadata_parser: YouTube::VideoMetadata
   slug: helveticruby-2025
@@ -53,14 +56,14 @@
   featured_background: "#F2EDE1"
   featured_color: "#810202"
   website: https://helvetic-ruby.ch
-  cfp_open_date: "2024-12-09"
-  cfp_close_date: "2025-01-29"
-  cfp_link: "https://helvetic-ruby.ch/call-for-speakers"
-
+  cfp_open_date: '2024-12-09'
+  cfp_close_date: '2025-01-29'
+  cfp_link: https://helvetic-ruby.ch/call-for-speakers
+  coordinates: 6.1431577,46.2043907
 - id: helveticruby-2026
   title: Helvetic Ruby 2026
-  description: '＠JP TOWER Hall & Conference & Online (Hybrid event)'
-  location: "Zürich, Switzerland"
+  description: "＠JP TOWER Hall & Conference & Online (Hybrid event)"
+  location: Zürich, Switzerland
   kind: conference
   start_date: '2026-11-19'
   end_date: '2026-11-20'
@@ -71,3 +74,4 @@
   banner_background: "#F2EDE1"
   featured_background: "#F2EDE1"
   featured_color: "#810202"
+  coordinates: 8.541694,47.3768866

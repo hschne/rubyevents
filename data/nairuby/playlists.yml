@@ -10,10 +10,12 @@
   slug: rubyconf-kenya-2015
   website: http://rubyconf.nairuby.org/2015
   twitter: nairubyke
-
+  coordinates: 36.8219462,-1.2920659
 - id: rubyconf-kenya-2016
   title: RubyConf Kenya 2016
-  description: "On the 5th to 7th May 2016, leading Ruby developers from around the world will come together to share, inspire and learn. Theme: nurturing entrepreneurship through open source culture"
+  description: 'On the 5th to 7th May 2016, leading Ruby developers from around the
+    world will come together to share, inspire and learn. Theme: nurturing entrepreneurship
+    through open source culture'
   location: Nairobi, Kenya
   kind: conference
   start_date: '2016-05-05'
@@ -23,10 +25,10 @@
   website: https://web.archive.org/web/20160731012217/http://rubyconf.nairuby.org/2016
   original_website: http://rubyconf.nairuby.org/2016
   twitter: nairubyke
-
-- id: "PLb6Zr8jHuhjzIAKR7l2r81P-hxBUftT2-"
+  coordinates: 36.8219462,-1.2920659
+- id: PLb6Zr8jHuhjzIAKR7l2r81P-hxBUftT2-
   title: RubyConf Kenya 2017
-  description: "THEME: AGILE, OPEN SOURCE AND ENTREPRENEURSHIP"
+  description: 'THEME: AGILE, OPEN SOURCE AND ENTREPRENEURSHIP'
   location: Nairobi, Kenya
   kind: conference
   start_date: '2017-06-08'
@@ -37,7 +39,7 @@
   original_website: http://rubyconf.nairuby.org/2017
   twitter: nairubyke
   playlist: https://www.youtube.com/playlist?list=PLb6Zr8jHuhjzIAKR7l2r81P-hxBUftT2-
-
+  coordinates: 36.8219462,-1.2920659
 - id: rubyconf-kenya-2018
   title: RubyConf Kenya 2018
   description: ''
@@ -49,7 +51,7 @@
   slug: rubyconf-kenya-2018
   website: http://rubyconf.nairuby.org/2018
   twitter: nairubyke
-
+  coordinates: 36.8219462,-1.2920659
 - id: rubyconf-kenya-2019
   title: RubyConf Kenya 2019
   description: ''
@@ -61,3 +63,4 @@
   slug: rubyconf-kenya-2019
   website: http://rubyconf.nairuby.org/2019
   twitter: nairubyke
+  coordinates: 36.8219462,-1.2920659

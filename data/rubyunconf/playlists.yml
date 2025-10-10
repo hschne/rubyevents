@@ -1,13 +1,13 @@
 ---
 - id: PLvpu5WTDxTKWA9z0jSc0gAvQ-wH00Rs5T
   title: Ruby Unconf 2018
-  location: "Hamburg, Germany"
+  location: Hamburg, Germany
   description: Ruby Unconf 2018 in Hamburg, Germany. May 5th and May 6th 2018
-  published_at: "2018-05-05"
-  start_date: "2018-05-05"
-  end_date: "2018-05-06"
+  published_at: '2018-05-05'
+  start_date: '2018-05-05'
+  end_date: '2018-05-06'
   channel_id: UCnl2p1jpQo4ITeFq4yqmVuA
-  year: "2018"
+  year: '2018'
   videos_count: 24
   metadata_parser: YouTube::VideoMetadata
   slug: rubyunconf-2018
@@ -15,16 +15,16 @@
   featured_background: "#DBD4C4"
   featured_color: "#5C4594"
   website: https://2018.rubyunconf.eu/
-
+  coordinates: 9.987170299999999,53.5488282
 - id: PLvpu5WTDxTKVC08sqymaBAEDKoVkJG3pr
   title: Ruby Unconf 2019
-  location: "Hamburg, Germany"
+  location: Hamburg, Germany
   description: Ruby Unconf 2019 in Hamburg, Germany. May 25th and May 26th 2019
-  published_at: "2019-05-25"
-  start_date: "2019-05-25"
-  end_date: "2019-05-26"
+  published_at: '2019-05-25'
+  start_date: '2019-05-25'
+  end_date: '2019-05-26'
   channel_id: UCnl2p1jpQo4ITeFq4yqmVuA
-  year: "2019"
+  year: '2019'
   videos_count: 29
   metadata_parser: YouTube::VideoMetadata
   slug: rubyunconf-2019
@@ -32,7 +32,7 @@
   featured_background: "#DBD4C4"
   featured_color: "#5C4594"
   website: https://2019.rubyunconf.eu/
-
+  coordinates: 9.987170299999999,53.5488282
 - id: rubyunconf-2020
   title: Ruby Unconf 2020 (Cancelled)
   description: ''
@@ -44,7 +44,7 @@
   slug: rubyunconf-2020
   website: https://2020.rubyunconf.eu/
   status: Cancelled
-
+  coordinates: 9.987170299999999,53.5488282
 - id: rubyunconf-2023
   title: Ruby Unconf 2023
   description: ''
@@ -55,19 +55,20 @@
   metadata_parser: YouTube::VideoMetadata
   slug: rubyunconf-2023
   website: https://2023.rubyunconf.eu
-
+  coordinates: 9.987170299999999,53.5488282
 - id: PLvpu5WTDxTKVWSm0O7wsAyxRDF_gBsBrP
   title: Ruby Unconf 2024
-  location: "Hamburg, Germany"
+  location: Hamburg, Germany
   description: Ruby Unconf 2024 in Hamburg, Germany. June 8th & June 9th 2024
-  published_at: "2024-06-08"
-  start_date: "2024-06-08"
-  end_date: "2024-06-09"
+  published_at: '2024-06-08'
+  start_date: '2024-06-08'
+  end_date: '2024-06-09'
   channel_id: UCnl2p1jpQo4ITeFq4yqmVuA
-  year: "2024"
+  year: '2024'
   videos_count: 7
   metadata_parser: YouTube::VideoMetadata
   slug: rubyunconf-2024
   banner_background: "#FCE9E9"
   featured_background: "#FCE9E9"
   featured_color: "#5C4594"
+  coordinates: 9.987170299999999,53.5488282

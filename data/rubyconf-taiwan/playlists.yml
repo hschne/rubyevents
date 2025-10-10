@@ -10,7 +10,7 @@
   slug: rubyconf-taiwan-2014
   website: https://rubyconf.tw/2014/
   playlist: https://www.youtube.com/playlist?list=PLhKZ4RWngmpCUi7IcCDEVSRc1OsaJSguB
-
+  coordinates: 121.5654177,25.0329694
 - id: PLhKZ4RWngmpDVKgAH_p_X7gtLSGsvmMJj
   title: RubyConf Taiwan 2015
   description: ''
@@ -22,7 +22,7 @@
   slug: rubyconf-taiwan-2015
   website: https://2015.rubyconf.tw/
   playlist: https://www.youtube.com/playlist?list=PLhKZ4RWngmpDVKgAH_p_X7gtLSGsvmMJj
-
+  coordinates: 121.5654177,25.0329694
 - id: PLhKZ4RWngmpB7wxvDs02oGA9IRKw3dVYO
   title: RubyConf Taiwan 2016
   description: ''
@@ -34,7 +34,7 @@
   slug: rubyconf-taiwan-2016
   website: https://2016.rubyconf.tw/
   playlist: https://www.youtube.com/playlist?list=PLhKZ4RWngmpB7wxvDs02oGA9IRKw3dVYO
-
+  coordinates: 121.5654177,25.0329694
 - id: PLhKZ4RWngmpAdmjfDBiqiOKpk1PiCIb2A
   title: RubyConf Taiwan 2018
   description: ''
@@ -46,7 +46,7 @@
   slug: rubyconf-taiwan-2018
   website: https://2018.rubyconf.tw/
   playlist: https://www.youtube.com/playlist?list=PLhKZ4RWngmpAdmjfDBiqiOKpk1PiCIb2A
-
+  coordinates: 121.5654177,25.0329694
 - id: PLhKZ4RWngmpBgD6t068O_EZ4grSlUtl3Y
   title: RubyConf Taiwan 2019
   description: ''
@@ -58,10 +58,10 @@
   slug: rubyconf-taiwan-2019
   website: https://2019.rubyconf.tw
   playlist: https://www.youtube.com/playlist?list=PLhKZ4RWngmpBgD6t068O_EZ4grSlUtl3Y
-
+  coordinates: 121.5654177,25.0329694
 - id: rubyconf-taiwan-2021
   title: RubyConf Taiwan 2021
-  description: 'Entirely virtual on Gathertown & Youtube'
+  description: Entirely virtual on Gathertown & Youtube
   location: online
   kind: conference
   start_date: '2021-07-31'
@@ -69,16 +69,15 @@
   metadata_parser: YouTube::VideoMetadata
   slug: rubyconf-taiwan-2021
   website: https://2021.rubyconf.tw
-
 - id: PLhKZ4RWngmpARULXh_Sv5X5AYQ8hLlGih
   title: RubyConf Taiwan 2023
-  location: "Taipai, Taiwan"
-  description: "Dec 15-16 2023, National Taipei University of Education, https://2023.rubyconf.tw"
-  published_at: "2023-12-15"
-  start_date: "2023-12-15"
-  end_date: "2023-12-16"
+  location: Taipai, Taiwan
+  description: Dec 15-16 2023, National Taipei University of Education, https://2023.rubyconf.tw
+  published_at: '2023-12-15'
+  start_date: '2023-12-15'
+  end_date: '2023-12-16'
   channel_id: UCqw_z59yI24SivuD573FECA
-  year: "2023"
+  year: '2023'
   videos_count: 27
   metadata_parser: YouTube::VideoMetadata
   slug: rubyconf-taiwan-2023
@@ -86,7 +85,7 @@
   featured_background: "#0A0323"
   featured_color: "#FFFFFF"
   website: https://2023.rubyconf.tw/
-
+  coordinates: 121.5654268,25.0329636
 - id: rubyconf-taiwan-x-coscup-2025
   title: RubyConf Taiwan x COSCUP 2025
   description: ''
@@ -101,6 +100,7 @@
   banner_background: "#E5EAEE"
   featured_background: "#E5EAEE"
   featured_color: "#00A991"
-  cfp_open_date: "2025-04-07"
-  cfp_close_date: "2025-05-10"
-  cfp_link: "https://pretalx.coscup.org/coscup-2025/cfp"
+  cfp_open_date: '2025-04-07'
+  cfp_close_date: '2025-05-10'
+  cfp_link: https://pretalx.coscup.org/coscup-2025/cfp
+  coordinates: 121.5654177,25.0329694

@@ -9,7 +9,7 @@
   metadata_parser: YouTube::VideoMetadata
   slug: rubyconf-china-2017
   website: http://rubyconfchina.org
-
+  coordinates: 120.15515,30.2741499
 - id: rubyconf-china-2023
   title: RubyConf China 2023
   description: ''
@@ -20,7 +20,7 @@
   metadata_parser: YouTube::VideoMetadata
   slug: rubyconf-china-2023
   website: https://www.rubyconfchina.org
-
+  coordinates: 121.473701,31.230416
 - id: rubyconf-china-2024
   title: RubyConf China 2024
   description: ''
@@ -31,3 +31,4 @@
   metadata_parser: YouTube::VideoMetadata
   slug: rubyconf-china-2024
   website: https://www.rubyconfchina.org
+  coordinates: 113.26436,23.1290799

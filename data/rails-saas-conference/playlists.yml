@@ -1,12 +1,14 @@
+---
 - id: PLvpu5WTDxTKX2KnlAxfgdTRDGFuSgzMlc
   title: The Rails SaaS Conference 2022
-  location: "Los Angeles, CA"
-  description: "A small, next-generation Ruby on Rails conference • Meeting at the intersection of Rails and business"
-  published_at: "2022-10-07"
-  start_date: "2022-10-06"
-  end_date: "2022-10-07"
+  location: Los Angeles, CA
+  description: A small, next-generation Ruby on Rails conference • Meeting at the
+    intersection of Rails and business
+  published_at: '2022-10-07'
+  start_date: '2022-10-06'
+  end_date: '2022-10-07'
   channel_id: UCWnPjmqvljcafA0z2U1fwKQ
-  year: "2022"
+  year: '2022'
   videos_count: 12
   metadata_parser: YouTube::VideoMetadata
   slug: rails-saas-conference-2022
@@ -14,16 +16,17 @@
   featured_background: "#466BB1"
   featured_color: "#FFFFFF"
   website: https://web.archive.org/web/20220927175525/https://railssaas.com/
-
+  coordinates: "-118.242643,34.0549076"
 - id: rails-saas-conference-2023
   title: The Rails SaaS Conference 2023
-  location: "Athens, Greece"
-  description: "A small, next-generation Ruby on Rails conference • Meeting at the intersection of Rails and business"
-  published_at: "2023-06-02"
-  start_date: "2023-06-01"
-  end_date: "2023-06-02"
-  channel_id: ""
-  year: "2023"
+  location: Athens, Greece
+  description: A small, next-generation Ruby on Rails conference • Meeting at the
+    intersection of Rails and business
+  published_at: '2023-06-02'
+  start_date: '2023-06-01'
+  end_date: '2023-06-02'
+  channel_id: ''
+  year: '2023'
   videos_count: 12
   metadata_parser: YouTube::VideoMetadata
   slug: rails-saas-conference-2023
@@ -31,3 +34,4 @@
   featured_background: "#466BB1"
   featured_color: "#FFFFFF"
   website: https://web.archive.org/web/20230716113217/https://railssaas.com/
+  coordinates: 23.7275388,37.9838096

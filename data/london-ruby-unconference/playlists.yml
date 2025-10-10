@@ -10,7 +10,7 @@
   slug: london-ruby-unconference-2016
   website: http://www.eventbrite.com/e/london-ruby-unconference-tickets-27663867372?aff=github
   twitter: rubyunconf
-
+  coordinates: "-0.1275862,51.5072178"
 - id: london-ruby-unconference-2017
   title: London Ruby Unconference 2017
   description: ''
@@ -22,7 +22,7 @@
   slug: london-ruby-unconference-2017
   website: https://www.eventbrite.com/e/london-ruby-unconference-tickets-36286901098?aff=rubyconferences
   twitter: rubyunconf
-
+  coordinates: "-0.1275862,51.5072178"
 - id: london-ruby-unconference-2019
   title: London Ruby Unconference 2019
   description: ''
@@ -32,5 +32,6 @@
   end_date: '2019-10-07'
   metadata_parser: YouTube::VideoMetadata
   slug: london-ruby-unconference-2019
-  website: "http://rubyunconf.uk"
+  website: http://rubyunconf.uk
   twitter: rubyunconf
+  coordinates: "-0.1275862,51.5072178"

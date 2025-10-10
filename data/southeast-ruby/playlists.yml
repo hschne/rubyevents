@@ -11,7 +11,7 @@
   website: https://southeastruby.com
   twitter: southeastruby
   playlist: https://www.youtube.com/watch?v=5wI0ss02leo&list=PLRO4gNnSWQ4LSAVV7_7BliuoFCRHIqVk0
-
+  coordinates: "-86.7816016,36.1626638"
 - id: southeast-ruby-2018
   title: Southeast Ruby 2018
   description: ''
@@ -24,7 +24,7 @@
   website: https://southeastruby.com/
   twitter: southeastruby
   playlist: https://www.youtube.com/watch?v=-JpAUN6Ovok&list=PLRO4gNnSWQ4JNwiS-MyfIIejk2R_Y6UKR
-
+  coordinates: "-86.7816016,36.1626638"
 - id: southeast-ruby-2019
   title: Southeast Ruby 2019
   description: ''
@@ -36,3 +36,4 @@
   slug: southeast-ruby-2019
   website: https://southeastruby.com/
   twitter: southeastruby
+  coordinates: "-86.7816016,36.1626638"

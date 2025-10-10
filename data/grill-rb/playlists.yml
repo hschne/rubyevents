@@ -8,10 +8,10 @@
   end_date: '2016-06-26'
   metadata_parser: YouTube::VideoMetadata
   slug: grill-rb-2016
-  website: ""
+  website: ''
   twitter: grill_rb
-
-- id: "PLDraF2Fjmu8VuZ8CohiG4EZuwHpUACUIN"
+  coordinates: 17.0386019,51.10929480000001
+- id: PLDraF2Fjmu8VuZ8CohiG4EZuwHpUACUIN
   title: Grill.rb 2017
   description: ''
   location: Wrocław, Poland
@@ -20,10 +20,10 @@
   end_date: '2017-07-02'
   metadata_parser: YouTube::VideoMetadata
   slug: grill-rb-2017
-  website: ""
+  website: ''
   twitter: grill_rb
   playlist: https://www.youtube.com/playlist?list=PLDraF2Fjmu8VuZ8CohiG4EZuwHpUACUIN
-
+  coordinates: 17.0386019,51.10929480000001
 - id: grill-rb-2018
   title: Grill.rb 2018
   description: ''
@@ -35,8 +35,8 @@
   slug: grill-rb-2018
   website: http://grillrb.com
   twitter: grill_rb
-
-- id: "PLDraF2Fjmu8WDwr5nInlqNzeiBk9sIsCt"
+  coordinates: 17.0386019,51.10929480000001
+- id: PLDraF2Fjmu8WDwr5nInlqNzeiBk9sIsCt
   title: Grill.rb 2019
   description: ''
   location: Wrocław, Poland
@@ -48,3 +48,4 @@
   website: http://grillrb.com
   twitter: grill_rb
   playlist: https://www.youtube.com/playlist?list=PLDraF2Fjmu8WDwr5nInlqNzeiBk9sIsCt
+  coordinates: 17.0386019,51.10929480000001

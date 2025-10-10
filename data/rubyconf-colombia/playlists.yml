@@ -11,7 +11,7 @@
   website: http://2015.rubyconf.co/
   twitter: rubyconfco
   playlist: https://www.youtube.com/playlist?list=PLq_08z5fuQgFP64HqrRWd3RWUKmPFMdo6
-
+  coordinates: "-75.56581530000001,6.2476376"
 - id: rubyconf-colombia-2016
   title: RubyConf Colombia 2016
   description: ''
@@ -24,7 +24,7 @@
   website: http://www.rubyconf.co/
   twitter: rubyconfco
   playlist: https://www.youtube.com/playlist?list=PLq_08z5fuQgGLwr7cJtU27IBgtz3Q4PII
-
+  coordinates: "-75.56581530000001,6.2476376"
 - id: rubyconf-colombia-2017
   title: RubyConf Colombia 2017
   description: ''
@@ -37,7 +37,7 @@
   website: http://2017.rubyconf.co/
   twitter: rubyconfco
   playlist: https://www.youtube.com/playlist?list=PLq_08z5fuQgFnASevZeUy1l4lbaqoidcL
-
+  coordinates: "-75.56581530000001,6.2476376"
 - id: rubyconf-colombia-2019
   title: RubyConf Colombia 2019
   description: ''
@@ -49,3 +49,4 @@
   slug: rubyconf-colombia-2019
   website: https://rubyconf.co
   twitter: rubyconfco
+  coordinates: "-75.56581530000001,6.2476376"

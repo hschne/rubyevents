@@ -9,7 +9,7 @@
   metadata_parser: YouTube::VideoMetadata
   slug: fukuoka-rubyistkaigi-01
   website: https://regional.rubykaigi.org/fukuoka01/
-
+  coordinates: 130.4016888,33.5901838
 - id: fukuoka-rubyistkaigi-02
   title: Fukuoka RubyistKaigi 02
   description: ''
@@ -20,7 +20,7 @@
   metadata_parser: YouTube::VideoMetadata
   slug: fukuoka-rubyistkaigi-02
   website: https://regional.rubykaigi.org/fukuoka02/
-
+  coordinates: 130.4016888,33.5901838
 - id: fukuoka-rubyistkaigi-03
   title: Fukuoka RubyistKaigi 03
   description: ''
@@ -36,7 +36,7 @@
   banner_background: |-
     linear-gradient(to bottom, #701227 67%, #701227 67%) left top / 50% 100% no-repeat, /* Left side */
     linear-gradient(to bottom, #7C152B 67%, #7C152B 67%) right top / 50% 100% no-repeat /* Right side */
-
+  coordinates: 130.4016888,33.5901838
 - id: fukuoka-rubyistkaigi-04
   title: Fukuoka RubyistKaigi 04
   description: ''
@@ -50,3 +50,4 @@
   featured_background: "#FFFFFF"
   featured_color: "#E86CA3"
   banner_background: "#FFFFFF"
+  coordinates: 130.4016888,33.5901838

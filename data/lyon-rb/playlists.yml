@@ -2,7 +2,8 @@
 - id: lyon-rb-meetup
   title: Lyon.rb Meetup
   location: Lyon, France
-  description: Les vidéos des talks réalisés par les membres de la communauté Lyon.rb, comme si vous y étiez !
+  description: Les vidéos des talks réalisés par les membres de la communauté Lyon.rb,
+    comme si vous y étiez !
   published_at: '2014-03-12'
   year: 2014
   videos_count: 25
@@ -13,11 +14,11 @@
   banner_background: "#FFFFFF"
   featured_background: "#FFFFFF"
   featured_color: "#930C10"
-
+  coordinates: 4.835659,45.764043
 - id: rulu-2011
   title: Ruby Lugdunum Conference 2011
   location: Lyon, France
-  description: '25-26 June 2011. Lyon, France'
+  description: 25-26 June 2011. Lyon, France
   start_date: '2011-06-25'
   end_date: '2011-06-26'
   year: '2011'
@@ -25,7 +26,7 @@
   metadata_parser: YouTube::VideoMetadata
   slug: rulu-2011
   website: http://2011.rulu.fr
-
+  coordinates: 4.835659,45.764043
 - id: PLE581136FC9265730
   title: Ruby Lugdunum Conference 2012
   location: Lyon, France
@@ -42,7 +43,7 @@
   featured_background: "#000000"
   featured_color: "#FFFFFF"
   website: https://2012.rulu.fr
-
+  coordinates: 4.835659,45.764043
 - id: PLWO0_50XhBj8rzshoKAzT-x_seGSX2PnR
   title: Ruby Lugdunum Conference 2013
   location: Lyon, France
@@ -59,7 +60,7 @@
   featured_background: "#000000"
   featured_color: "#FFFFFF"
   website: https://2013.rulu.fr
-
+  coordinates: 4.835659,45.764043
 - id: PLWO0_50XhBj8i99jLQMMW30Dq2SURyYxx
   title: Ruby Lugdunum Conference 2014
   location: Lyon, France
@@ -76,3 +77,4 @@
   featured_background: "#000000"
   featured_color: "#FFFFFF"
   website: https://2014.rulu.fr
+  coordinates: 4.835659,45.764043

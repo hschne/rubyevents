@@ -10,7 +10,7 @@
   slug: windycityrails-2014
   website: http://www.windycityrails.org/
   playlist: http://www.windycityrails.org/videos/2014/
-
+  coordinates: "-87.6323879,41.88325"
 - id: windycityrails-2015
   title: WindyCityRails 2015
   description: ''
@@ -22,7 +22,7 @@
   slug: windycityrails-2015
   website: http://www.windycityrails.org/
   playlist: https://windycityrails.com/videos/2015/
-
+  coordinates: "-87.6323879,41.88325"
 - id: windycityrails-2016
   title: WindyCityRails 2016
   description: ''
@@ -34,3 +34,4 @@
   slug: windycityrails-2016
   website: http://www.windycityrails.org/
   playlist: https://windycityrails.com/videos/2016/
+  coordinates: "-87.6323879,41.88325"

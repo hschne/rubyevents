@@ -2,8 +2,8 @@
 - id: rubysur
   title: RubySur Meetup
   location: Buenos Aires, Argentina
-  description: ""
-  channel_id: ""
+  description: ''
+  channel_id: ''
   kind: meetup
   frequency: monthly
   metadata_parser: YouTube::VideoMetadata
@@ -12,3 +12,4 @@
   banner_background: "#FFFFFF"
   featured_background: "#FFFFFF"
   featured_color: "#000000"
+  coordinates: "-58.3821215,-34.6036739"

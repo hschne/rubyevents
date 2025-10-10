@@ -11,7 +11,7 @@
   website: http://www.rubyfuza.org/2014/
   twitter: rubyfuza
   playlist: http://www.confreaks.com/events/rubyfuza2014
-
+  coordinates: 18.4231418,-33.922087
 - id: rubyfuza-2015
   title: Rubyfuza 2015
   description: ''
@@ -24,7 +24,7 @@
   website: http://www.rubyfuza.org/2015/
   twitter: rubyfuza
   playlist: https://www.youtube.com/playlist?list=PLI113oIao_x63Ne1S8ObKYQwbPRcpb8kN
-
+  coordinates: 18.4231418,-33.922087
 - id: rubyfuza-2016
   title: Rubyfuza 2016
   description: ''
@@ -36,7 +36,7 @@
   slug: rubyfuza-2016
   website: http://www.rubyfuza.org/2016/
   twitter: rubyfuza
-
+  coordinates: 18.4231418,-33.922087
 - id: rubyfuza-2017
   title: Rubyfuza 2017
   description: ''
@@ -49,7 +49,7 @@
   website: http://www.rubyfuza.org/2017/
   twitter: rubyfuza
   playlist: https://www.youtube.com/playlist?list=PLI113oIao_x5PHCdz0VLSKW4-Qp58pWOs
-
+  coordinates: 18.4231418,-33.922087
 - id: rubyfuza-2018
   title: Rubyfuza 2018
   description: ''
@@ -62,7 +62,7 @@
   website: http://www.rubyfuza.org
   twitter: rubyfuza
   playlist: https://www.youtube.com/playlist?list=PLI113oIao_x4i51ynrHhhNz3UpEDs0qxy
-
+  coordinates: 18.4231418,-33.922087
 - id: rubyfuza-2019
   title: Rubyfuza 2019
   description: ''
@@ -75,7 +75,7 @@
   website: http://www.rubyfuza.org
   twitter: rubyfuza
   playlist: https://www.youtube.com/playlist?list=PLI113oIao_x55gOvfDER9ocuEQD94kjjx
-
+  coordinates: 18.4231418,-33.922087
 - id: rubyfuza-2020
   title: Rubyfuza 2020
   description: ''
@@ -87,7 +87,7 @@
   slug: rubyfuza-2020
   website: https://www.rubyfuza.org
   twitter: rubyfuza
-
+  coordinates: 18.4231418,-33.922087
 - id: rubyfuza-2024
   title: Rubyfuza 2024 (Cancelled)
   description: ''
@@ -100,6 +100,7 @@
   website: https://www.rubyfuza.org
   status: Cancelled
   twitter: rubyfuza
-  cfp_open_date: "2023-12-05"
-  cfp_close_date: "2024-08-10"
-  cfp_link: "https://www.papercall.io/rubyfuza-2024"
+  cfp_open_date: '2023-12-05'
+  cfp_close_date: '2024-08-10'
+  cfp_link: https://www.papercall.io/rubyfuza-2024
+  coordinates: 18.4231418,-33.922087

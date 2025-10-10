@@ -2,9 +2,10 @@
 - id: bluegrass-ruby-meetup
   title: Bluegrass Ruby Meetup
   location: Lexington, KY
-  description: ""
+  description: ''
   metadata_parser: YouTube::VideoMetadata
   slug: bluegrass-ruby
   banner_background: "#FFFFFF"
   featured_background: "#FFFFFF"
   featured_color: "#CF2233"
+  coordinates: "-84.5152662,38.0389091"

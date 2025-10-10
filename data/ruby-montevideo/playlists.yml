@@ -2,8 +2,8 @@
 - id: PLtDsh6Hvvmkm6GWqpo9slt6gp__dbGJYa
   title: Ruby Montevideo Meetup
   location: Montevideo, Uruguay
-  description: ""
-  channel_id: ""
+  description: ''
+  channel_id: ''
   year: 2024
   videos_count: 16
   metadata_parser: YouTube::VideoMetadata
@@ -19,3 +19,4 @@
       #3967D1 20%
     )
   website: https://ruby.uy
+  coordinates: "-56.1851147,-34.9055016"

@@ -11,7 +11,7 @@
   website: http://rubyc.eu/
   twitter: rubyc_eu
   playlist: https://rubyc.eu/archives/4
-
+  coordinates: 30.5245025,50.4503596
 - id: rubyc-2015
   title: RubyC 2015
   description: ''
@@ -24,7 +24,7 @@
   website: http://rubyc.eu/
   twitter: rubyc_eu
   playlist: https://rubyc.eu/archives/5
-
+  coordinates: 30.5245025,50.4503596
 - id: rubyc-2016
   title: RubyC 2016
   description: ''
@@ -37,7 +37,7 @@
   website: http://rubyc.eu/
   twitter: rubyc_eu
   playlist: https://rubyc.eu/posts/55
-
+  coordinates: 30.5245025,50.4503596
 - id: rubyc-2017
   title: RubyC 2017
   description: ''
@@ -50,7 +50,7 @@
   website: http://rubyc.eu/
   twitter: rubyc_eu
   playlist: https://rubyc.eu/posts/75
-
+  coordinates: 30.5245025,50.4503596
 - id: rubyc-2018
   title: RubyC 2018
   description: ''
@@ -63,7 +63,7 @@
   website: http://rubyc.eu/
   twitter: rubyc_eu
   playlist: https://rubyc.eu/posts/93
-
+  coordinates: 30.5245025,50.4503596
 - id: rubyc-2019
   title: RubyC 2019
   description: ''
@@ -76,7 +76,7 @@
   website: https://rubyc.eu/
   twitter: rubyc_eu
   playlist: https://www.youtube.com/playlist?list=PLmEf5ppiRneTkaPA4fz6KBQKq-jAvTRkb
-
+  coordinates: 30.5245025,50.4503596
 - id: rubyc-2020
   title: RubyC 2020 (Cancelled)
   description: ''
@@ -89,3 +89,4 @@
   website: https://rubyc.eu/
   status: Cancelled
   twitter: rubyc_eu
+  coordinates: 30.5245025,50.4503596

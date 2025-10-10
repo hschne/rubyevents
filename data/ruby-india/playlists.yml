@@ -1,11 +1,12 @@
+---
 - id: pune-ruby-meetup
   title: Pune Ruby Meetup
-  location: "Pune, India"
-  description: ""
+  location: Pune, India
+  description: ''
   kind: meetup
-  channel_id: ""
-  published_at: "2025-02-01"
-  year: "2025"
+  channel_id: ''
+  published_at: '2025-02-01'
+  year: '2025'
   videos_count: 0
   metadata_parser: YouTube::VideoMetadata
   slug: pune-ruby-meetup
@@ -13,3 +14,4 @@
   featured_background: "#FFFFFF"
   featured_color: "#DF1C5B"
   website: https://lu.ma/calendar/cal-KTu2DlicAMuYZT1
+  coordinates: 73.8786239,18.5246091

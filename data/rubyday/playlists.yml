@@ -1,13 +1,13 @@
 ---
 - id: PL5ImBN21eKvbQ6kH6WCAqj1QqgusGsiO0
   title: rubyday 2014
-  location: "Verona, Italy"
-  description: ""
-  published_at: "2014-10-23"
-  start_date: "2014-09-26"
-  end_date: "2014-09-26"
+  location: Verona, Italy
+  description: ''
+  published_at: '2014-10-23'
+  start_date: '2014-09-26'
+  end_date: '2014-09-26'
   channel_id: UCkxizXigZY3iewM6dswcYzQ
-  year: "2014"
+  year: '2014'
   videos_count: 11
   metadata_parser: YouTube::VideoMetadata
   slug: rubyday-2014
@@ -15,48 +15,48 @@
   featured_background: "#FFFFFF"
   featured_color: "#333333"
   website: https://2014.rubyday.it
-
+  coordinates: 10.9917136,45.4383659
 - id: PL5ImBN21eKvaTC30b0rwaIWe3DRLr062d
   title: rubyday 2015
-  location: "Turin, Italy"
-  description: ""
-  published_at: "2016-01-08"
-  start_date: "2015-11-13"
-  end_date: "2015-11-13"
+  location: Turin, Italy
+  description: ''
+  published_at: '2016-01-08'
+  start_date: '2015-11-13'
+  end_date: '2015-11-13'
   channel_id: UCkxizXigZY3iewM6dswcYzQ
-  year: "2015"
+  year: '2015'
   videos_count: 14
   metadata_parser: YouTube::VideoMetadata
   slug: rubyday-2015
   banner_background: "#79CBB1"
   featured_background: "#79CBB1"
   featured_color: "#5F47A6"
-
+  coordinates: 7.6868552,45.0703155
 - id: PL5ImBN21eKvbFLhByXvzczzqtx9ApeKAY
   title: rubyday 2016
-  location: "Florence, Italy"
-  description: ""
-  published_at: "2016-12-20"
-  start_date: "2016-11-25"
-  end_date: "2016-11-26"
+  location: Florence, Italy
+  description: ''
+  published_at: '2016-12-20'
+  start_date: '2016-11-25'
+  end_date: '2016-11-26'
   channel_id: UCkxizXigZY3iewM6dswcYzQ
-  year: "2016"
+  year: '2016'
   videos_count: 12
   metadata_parser: YouTube::VideoMetadata
   slug: rubyday-2016
   banner_background: "#75CEA0"
   featured_background: "#75CEA0"
   featured_color: "#492996"
-
+  coordinates: 11.2576706,43.7699685
 - id: PLWK9j6ps_unmgzGOw3cbjS8ID-b-cF1d9
   title: rubyday 2019
-  location: "Verona, Italy"
-  description: ""
-  published_at: "2019-07-12"
-  start_date: "2019-04-11"
-  end_date: "2019-04-11"
+  location: Verona, Italy
+  description: ''
+  published_at: '2019-07-12'
+  start_date: '2019-04-11'
+  end_date: '2019-04-11'
   channel_id: UCdWnwC8nz_CCFQrmLBrLCVw
-  year: "2019"
+  year: '2019'
   videos_count: 8
   metadata_parser: YouTube::VideoMetadata
   slug: rubyday-2019
@@ -64,19 +64,19 @@
   featured_background: "#EBEEF5"
   featured_color: "#5F4E9B"
   website: https://2019.rubyday.it
-
+  coordinates: 10.9917136,45.4383659
 - id: PLWK9j6ps_unl0S5Xmi6FVfDLFUkntQTfK
   title: rubyday 2020
-  location: "online"
+  location: online
   description: |-
     rubyday 2020 - Virtual edition, September 16th 2020. https://2020.rubyday.it/​
 
     Next edition: https://2021.rubyday.it/
-  published_at: "2021-04-01"
-  start_date: "2020-09-16"
-  end_date: "2020-09-16"
+  published_at: '2021-04-01'
+  start_date: '2020-09-16'
+  end_date: '2020-09-16'
   channel_id: UCdWnwC8nz_CCFQrmLBrLCVw
-  year: "2020"
+  year: '2020'
   videos_count: 8
   metadata_parser: YouTube::VideoMetadata
   slug: rubyday-2020
@@ -84,16 +84,15 @@
   featured_background: "#EEEEEE"
   featured_color: "#6956A9"
   website: https://2020.rubyday.it
-
 - id: PLWK9j6ps_unmW3N5wPFG6WKVEVqCz0uAt
   title: rubyday 2021
-  location: "online"
-  description: ""
-  published_at: "2023-02-15"
-  start_date: "2021-04-07"
-  end_date: "2021-04-07"
+  location: online
+  description: ''
+  published_at: '2023-02-15'
+  start_date: '2021-04-07'
+  end_date: '2021-04-07'
   channel_id: UCdWnwC8nz_CCFQrmLBrLCVw
-  year: "2021"
+  year: '2021'
   videos_count: 7
   metadata_parser: YouTube::VideoMetadata
   slug: rubyday-2021
@@ -101,20 +100,18 @@
   featured_background: "#6A58A5"
   featured_color: "#FFFFFF"
   website: https://2021.rubyday.it
-
 - id: PLWK9j6ps_unm-KNKVWSOHiGa4vrA_zCJO
   title: rubyday 2023
-  location: "Verona, Italy"
-  description:
-    "rubyday 2023 is the 10th edition of the Italian Ruby conference, organized
+  location: Verona, Italy
+  description: "rubyday 2023 is the 10th edition of the Italian Ruby conference, organized
     by GrUSP.\n\n\U0001F47E Main topics: Ruby, ChatGPT, LLM, AI, Rubocop, team management,
     End to end typing, Ruby Kata, Caching strategies, Haskell \n\n\U0001F5D3️ 16 June
     | \U0001F4CDVerona and online \n\U0001F517 www.2023.rubyday.it"
-  published_at: "2024-01-15"
-  start_date: "2023-06-16"
-  end_date: "2023-06-16"
+  published_at: '2024-01-15'
+  start_date: '2023-06-16'
+  end_date: '2023-06-16'
   channel_id: UCdWnwC8nz_CCFQrmLBrLCVw
-  year: "2023"
+  year: '2023'
   videos_count: 8
   metadata_parser: YouTube::VideoMetadata
   slug: rubyday-2023
@@ -122,11 +119,13 @@
   featured_background: "#5F4E9B"
   featured_color: "#FFFFFF"
   website: https://2023.rubyday.it
-
+  coordinates: 10.9917136,45.4383659
 - id: PLWK9j6ps_unkUWzaxZrYpkOU5pOg8BZBE
   title: rubyday 2024
-  location: "Verona, Italy"
-  description: rubyday 2024 is the 11th edition of the Italian Ruby conference. The event is international and allows all Rubyists to meet and share experience while having fun and networking in an enjoyable context.
+  location: Verona, Italy
+  description: rubyday 2024 is the 11th edition of the Italian Ruby conference. The
+    event is international and allows all Rubyists to meet and share experience while
+    having fun and networking in an enjoyable context.
   published_at: '2024-12-16'
   start_date: '2024-05-31'
   end_date: '2024-05-31'
@@ -136,9 +135,10 @@
   metadata_parser: YouTube::VideoMetadata
   slug: rubyday-2024
   website: https://2024.rubyday.it
-  banner_background: "linear-gradient(to right, #1F133B 50%, #07040D 50%)"
+  banner_background: 'linear-gradient(to right, #1F133B 50%, #07040D 50%)'
   featured_background: "#5F4E9B"
   featured_color: "#FFFFFF"
-  cfp_open_date: "2023-11-03"
-  cfp_close_date: "2024-01-31"
-  cfp_link: "https://2024.rubyday.it/welcome/cfp.html"
+  cfp_open_date: '2023-11-03'
+  cfp_close_date: '2024-01-31'
+  cfp_link: https://2024.rubyday.it/welcome/cfp.html
+  coordinates: 10.9917136,45.4383659

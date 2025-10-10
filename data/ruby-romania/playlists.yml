@@ -2,8 +2,8 @@
 - id: ruby-romania
   title: Ruby Romania Meetup
   location: Romania
-  description: ""
-  channel_id: ""
+  description: ''
+  channel_id: ''
   metadata_parser: YouTube::VideoMetadata
   slug: ruby-romania-meetup
   banner_background: "#FFFFFF"
@@ -13,3 +13,4 @@
   meetup: https://www.meetup.com/ruby-romania/
   youtube: https://www.youtube.com/@RubyRomaniaCommunity
   website: https://rubyromania.ro
+  coordinates: 24.96676,45.943161

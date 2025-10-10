@@ -1,7 +1,7 @@
 ---
 - id: osaka-rubykaigi-01
   title: Osaka RubyKaigi 01
-  description: 'Osaka Science & Technology Center'
+  description: Osaka Science & Technology Center
   location: Osaka, Japan
   kind: conference
   start_date: '2018-07-21'
@@ -10,7 +10,7 @@
   slug: osaka-rubykaigi-01
   website: https://regional.rubykaigi.org/osaka01/
   twitter: rubykansai
-
+  coordinates: 135.5022535,34.6937249
 - id: osaka-rubykaigi-02
   title: Osaka RubyKaigi 02
   description: ''
@@ -22,7 +22,7 @@
   slug: osaka-rubykaigi-02
   website: https://regional.rubykaigi.org/osaka02/
   twitter: rubykansai
-
+  coordinates: 135.5022535,34.6937249
 - id: osaka-rubykaigi-03
   title: Osaka RubyKaigi 03
   description: ''
@@ -34,7 +34,7 @@
   slug: osaka-rubykaigi-03
   website: https://regional.rubykaigi.org/osaka03/
   twitter: rubykansai
-
+  coordinates: 135.5022535,34.6937249
 - id: osaka-rubykaigi-04
   title: Osaka RubyKaigi 04
   description: ''
@@ -45,3 +45,4 @@
   metadata_parser: YouTube::VideoMetadata
   slug: osaka-rubykaigi-04
   website: https://regional.rubykaigi.org/osaka04/
+  coordinates: 135.5022535,34.6937249

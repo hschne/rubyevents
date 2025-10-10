@@ -1,43 +1,43 @@
 ---
 - id: rubyconf-argentina-2011
   title: RubyConf Argentina 2011
-  description: ""
+  description: ''
   location: Buenos Aires, Argentina
   kind: conference
-  start_date: "2011-11-08"
-  end_date: "2011-11-09"
+  start_date: '2011-11-08'
+  end_date: '2011-11-09'
   metadata_parser: YouTube::VideoMetadata
   slug: rubyconf-argentina-2011
   website: https://web.archive.org/web/20111028103035/http://rubyconfargentina.org/en
   twitter: rubyconfar
-  playlist: ""
-
+  playlist: ''
+  coordinates: "-58.3821215,-34.6036739"
 - id: rubyconf-argentina-2012
   title: RubyConf Argentina 2012
-  description: ""
+  description: ''
   location: Buenos Aires, Argentina
   kind: conference
-  start_date: "2012-10-15"
-  end_date: "2012-10-16"
+  start_date: '2012-10-15'
+  end_date: '2012-10-16'
   metadata_parser: YouTube::VideoMetadata
   slug: rubyconf-argentina-2012
   website: https://web.archive.org/web/20130617134243/http://rubyconfargentina.org/en
   twitter: rubyconfar
-  playlist: ""
-
+  playlist: ''
+  coordinates: "-58.3821215,-34.6036739"
 - id: rubyconf-argentina-2013
   title: RubyConf Argentina 2013
-  description: ""
+  description: ''
   location: Buenos Aires, Argentina
   kind: conference
-  start_date: "2013-11-27"
-  end_date: "2013-11-28"
+  start_date: '2013-11-27'
+  end_date: '2013-11-28'
   metadata_parser: YouTube::VideoMetadata
   slug: rubyconf-argentina-2013
   website: https://2013.rubyconfargentina.org/en
   twitter: rubyconfar
-  playlist: ""
-
+  playlist: ''
+  coordinates: "-58.3821215,-34.6036739"
 - id: rubyconf-argentina-2014
   title: RubyConf Argentina 2014
   description: ''
@@ -49,4 +49,5 @@
   slug: rubyconf-argentina-2014
   website: https://rubyconfargentina.org/index_es.html
   twitter: rubyconfar
-  playlist: ""
+  playlist: ''
+  coordinates: "-58.3821215,-34.6036739"

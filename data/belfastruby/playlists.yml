@@ -2,8 +2,8 @@
 - id: belfastruby
   title: Belfast Ruby Meetup
   location: Belfast, Northern Ireland, UK
-  description: ""
-  channel_id: ""
+  description: ''
+  channel_id: ''
   metadata_parser: YouTube::VideoMetadata
   slug: belfastruby-meetup
   banner_background: "#FFFFFF"
@@ -12,3 +12,4 @@
   luma: https://lu.ma/BelfastRuby
   meetup: https://www.meetup.com/belfastruby
   website: https://lu.ma/BelfastRuby
+  coordinates: "-5.93012,54.59728500000001"

@@ -1,10 +1,11 @@
+---
 - id: latviarb-meetup
   title: Latvia.rb Meetup
-  location: "Riga, Latvia"
-  description: "A meetup group centering around the Ruby programming language."
+  location: Riga, Latvia
+  description: A meetup group centering around the Ruby programming language.
   kind: meetup
-  channel_id: ""
-  year: "2024"
+  channel_id: ''
+  year: '2024'
   videos_count: 0
   metadata_parser: YouTube::VideoMetadata
   slug: latviarb-meetup
@@ -14,3 +15,4 @@
   featured_background: "#FFFFFF"
   featured_color: "#000000"
   website: https://lu.ma/latviarb
+  coordinates: 24.1056221,56.9676941

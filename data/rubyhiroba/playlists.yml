@@ -1,11 +1,12 @@
+---
 - id: rubyhiroba-2013
   title: RubyHiroba 2013
-  location: "Minato City, Tokyo, Japan"
-  description: "Microsoft Japan Co., Ltd headquarters building 31st floor"
-  start_date: "2013-06-02"
-  end_date: "2013-06-02"
-  channel_id: ""
-  year: "2013"
+  location: Minato City, Tokyo, Japan
+  description: Microsoft Japan Co., Ltd headquarters building 31st floor
+  start_date: '2013-06-02'
+  end_date: '2013-06-02'
+  channel_id: ''
+  year: '2013'
   videos_count: 0
   metadata_parser: YouTube::VideoMetadataRubyKaigi
   slug: rubyhiroba-2013
@@ -13,15 +14,15 @@
   banner_background: "#E3E0C9"
   featured_background: "#E3E0C9"
   featured_color: "#1D2E51"
-
+  coordinates: 139.7515077,35.65808130000001
 - id: rubyhiroba-2014
   title: RubyHiroba 2014
-  location: "Shibuya, Tokyo, Japan"
-  description: ""
-  start_date: "2014-09-21"
-  end_date: "2014-09-21"
-  channel_id: ""
-  year: "2014"
+  location: Shibuya, Tokyo, Japan
+  description: ''
+  start_date: '2014-09-21'
+  end_date: '2014-09-21'
+  channel_id: ''
+  year: '2014'
   videos_count: 0
   metadata_parser: YouTube::VideoMetadataRubyKaigi
   slug: rubyhiroba-2014
@@ -29,3 +30,4 @@
   banner_background: "#A7C3B4"
   featured_background: "#A7C3B4"
   featured_color: "#FFFFFF"
+  coordinates: 139.703795,35.6619707

@@ -3,14 +3,14 @@
   title: Abril Pro Ruby 2012
   description: ''
   location: Recife, Brazil
+  coordinates: "-34.8829629,-8.0577401"
   kind: conference
   start_date: '2012-04-21'
   end_date: '2012-04-21'
   metadata_parser: YouTube::VideoMetadata
   slug: abril-pro-ruby-2012
-  website: "https://web.archive.org/web/20140104165523/http://abrilproruby.com/2012"
+  website: https://web.archive.org/web/20140104165523/http://abrilproruby.com/2012
   twitter: abrilproruby
-
 - id: abril-pro-ruby-2013
   title: Abril Pro Ruby 2013
   description: ''
@@ -20,10 +20,10 @@
   end_date: '2013-04-27'
   metadata_parser: YouTube::VideoMetadata
   slug: abril-pro-ruby-2013
-  website: "https://web.archive.org/web/20140104165537/http://abrilproruby.com/2013"
+  website: https://web.archive.org/web/20140104165537/http://abrilproruby.com/2013
   twitter: abrilproruby
-
-- id: "PL7a-mWnTar6v5cDC4MLDZKwD0RuMSDHHP"
+  coordinates: "-34.8829629,-8.0577401"
+- id: PL7a-mWnTar6v5cDC4MLDZKwD0RuMSDHHP
   title: Abril Pro Ruby 2014
   description: ''
   location: Porto de Galinhas, Brazil
@@ -32,6 +32,7 @@
   end_date: '2014-04-27'
   metadata_parser: YouTube::VideoMetadata
   slug: abril-pro-ruby-2014
-  website: "https://web.archive.org/web/20140416142613/http://abrilproruby.com/en"
+  website: https://web.archive.org/web/20140416142613/http://abrilproruby.com/en
   twitter: abrilproruby
   playlist: https://www.youtube.com/playlist?list=PL7a-mWnTar6v5cDC4MLDZKwD0RuMSDHHP
+  coordinates: "-35.0059569,-8.5065261"

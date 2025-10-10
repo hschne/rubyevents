@@ -2,9 +2,9 @@
 - id: sf-bay-area-ruby-meetup
   title: SF Bay Area Ruby Meetup
   location: San Francisco, CA
-  description: ""
-  published_at: "2024-11-30"
-  channel_id: ""
+  description: ''
+  published_at: '2024-11-30'
+  channel_id: ''
   kind: meetup
   frequency: monthly
   videos_count: 0
@@ -14,22 +14,25 @@
   featured_background: "#0038FF"
   featured_color: "#FFFFFF"
   website: https://lu.ma/sfruby
-
+  coordinates: "-122.4194155,37.7749295"
 - id: sfruby-2025
   title: San Francisco Ruby Conference 2025
   location: San Francisco, CA
-  description: ""
-  start_date: "2025-11-19"
-  end_date: "2025-11-20"
+  description: ''
+  start_date: '2025-11-19'
+  end_date: '2025-11-20'
   kind: conference
   frequency: yearly
-  year: "2025"
+  year: '2025'
   videos_count: 0
   metadata_parser: YouTube::VideoMetadata
   slug: sfruby-2025
-  banner_background: "linear-gradient(oklch(0.65 0.17 250), oklch(0.45 0.17 250), oklch(0.45 0.17 250));"
-  featured_background: "linear-gradient(oklch(0.65 0.17 250), oklch(0.45 0.17 250), oklch(0.45 0.17 250));"
+  banner_background: linear-gradient(oklch(0.65 0.17 250), oklch(0.45 0.17 250), oklch(0.45
+    0.17 250));
+  featured_background: linear-gradient(oklch(0.65 0.17 250), oklch(0.45 0.17 250),
+    oklch(0.45 0.17 250));
   featured_color: "#FFFFFF"
   website: https://sfruby.com
-  cfp_close_date: "2025-07-13"
-  cfp_link: "https://cfp.sfruby.com/"
+  cfp_close_date: '2025-07-13'
+  cfp_link: https://cfp.sfruby.com/
+  coordinates: "-122.4194155,37.7749295"

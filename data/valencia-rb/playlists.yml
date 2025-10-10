@@ -1,11 +1,12 @@
+---
 - id: valencia-rb-meetup
   title: Valencia.rb Meetup
-  location: "Valencia, Spain"
-  description: "A user-group for developers, techies & ruby lovers"
+  location: Valencia, Spain
+  description: A user-group for developers, techies & ruby lovers
   kind: meetup
-  published_at: "2024-12-11"
-  channel_id: ""
-  year: "2024"
+  published_at: '2024-12-11'
+  channel_id: ''
+  year: '2024'
   videos_count: 0
   metadata_parser: YouTube::VideoMetadata
   slug: valencia-rb-meetup
@@ -13,3 +14,4 @@
   featured_background: "#FFFFFF"
   featured_color: "#000000"
   website: https://valenciarb.org/en/
+  coordinates: "-0.3756348,39.4738338"

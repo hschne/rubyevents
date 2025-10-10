@@ -1,10 +1,11 @@
 ---
 - id: ruby-phil
-  title: Philippine Ruby Meetup # TODO: check extact name
+  title: Philippine Ruby Meetup
   location: Manila, Philippines
-  description: ""
+  description: ''
   metadata_parser: YouTube::VideoMetadata
   slug: ruby-phil
   banner_background: "#E72110"
   featured_background: "#E72110"
   featured_color: "#FFFFFF"
+  coordinates: 120.984234,14.5995133

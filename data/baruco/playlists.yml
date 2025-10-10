@@ -8,10 +8,10 @@
   end_date: '2012-09-09'
   metadata_parser: YouTube::VideoMetadata
   slug: barcelona-ruby-conf-2012
-  website: "https://web.archive.org/web/20120608025841/http://baruco.org/"
+  website: https://web.archive.org/web/20120608025841/http://baruco.org/
   twitter: baruco
-  playlist: ""
-
+  playlist: ''
+  coordinates: 2.168568,41.3873974
 - id: barcelona-ruby-conf-2013
   title: Barcelona Ruby Conf 2013
   description: ''
@@ -21,10 +21,10 @@
   end_date: '2013-09-15'
   metadata_parser: YouTube::VideoMetadata
   slug: barcelona-ruby-conf-2013
-  website: "https://web.archive.org/web/20130731100639/http://www.baruco.org/"
+  website: https://web.archive.org/web/20130731100639/http://www.baruco.org/
   twitter: baruco
-  playlist: ""
-
+  playlist: ''
+  coordinates: 2.168568,41.3873974
 - id: barcelona-ruby-conf-2014
   title: Barcelona Ruby Conf 2014
   description: ''
@@ -34,18 +34,20 @@
   end_date: '2014-09-13'
   metadata_parser: YouTube::VideoMetadata
   slug: barcelona-ruby-conf-2014
-  website: "https://web.archive.org/web/20141219035936/http://www.baruco.org/"
+  website: https://web.archive.org/web/20141219035936/http://www.baruco.org/
   twitter: baruco
   playlist: http://confreaks.tv/events/baruco2014
-
+  coordinates: 2.168568,41.3873974
 - id: barcelona-ruby-conf-2015
   title: Barcelona Ruby Conf 2015 (Full Stack Fest 2015)
-  description: 'Barcelona Ruby Conference and Barcelona Future JS join forces on a single-track, weeklong event'
+  description: Barcelona Ruby Conference and Barcelona Future JS join forces on a
+    single-track, weeklong event
   location: Barcelona, Spain
   kind: conference
   start_date: '2015-09-01'
   end_date: '2015-09-02'
   metadata_parser: YouTube::VideoMetadata
   slug: barcelona-ruby-conf-2015
-  website: "https://web.archive.org/web/20150712013812/http://www.fullstackfest.com/?from_baruco"
+  website: https://web.archive.org/web/20150712013812/http://www.fullstackfest.com/?from_baruco
   twitter: baruco
+  coordinates: 2.168568,41.3873974

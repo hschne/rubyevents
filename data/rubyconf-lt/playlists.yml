@@ -10,7 +10,7 @@
   slug: rubyconf-lt-2015
   website: https://2015.rubyconf.lt/
   playlist: https://www.youtube.com/user/rubyconflt
-
+  coordinates: 25.2796514,54.6871555
 - id: rubyconf-lt-2016
   title: RubyConfLT 2016
   description: ''
@@ -22,7 +22,7 @@
   slug: rubyconf-lt-2016
   website: https://2016.rubyconf.lt/
   playlist: https://www.youtube.com/user/rubyconflt
-
+  coordinates: 25.2796514,54.6871555
 - id: rubyconf-lt-2017
   title: RubyConfLT 2017
   description: ''
@@ -33,3 +33,4 @@
   metadata_parser: YouTube::VideoMetadata
   slug: rubyconf-lt-2017
   website: https://rubyconf.lt/
+  coordinates: 25.2796514,54.6871555
