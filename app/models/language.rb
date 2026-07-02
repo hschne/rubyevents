@@ -37,6 +37,10 @@ class Language
     Language.all.dup.keep_if { |key, value| assigned_languages.include?(key) }
   end
 
+  def self.used_counts
+    Talk.group(:language).order(Arel.sql("COUNT(*) DESC")).count
+  end
+
   def self.talks(code)
     Talk.where(language: code)
   end
