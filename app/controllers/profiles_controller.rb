@@ -151,9 +151,13 @@ class ProfilesController < ApplicationController
   end
 
   def language_preferences_param
-    raw = params.require(:user).fetch(:language_preferences, {}).to_unsafe_h
+    raw = params.require(:user)[:language_preferences]
 
-    raw.each_with_object({}) do |(code, answer), result|
+    return {} unless raw.respond_to?(:each_pair)
+
+    result = {}
+
+    raw.each_pair do |code, answer|
       next unless Language.by_code(code)
 
       case answer
@@ -161,6 +165,8 @@ class ProfilesController < ApplicationController
       when "does_not_understand" then result[code] = {"understands" => false}
       end
     end
+
+    result
   end
 
   def set_favorite_user
