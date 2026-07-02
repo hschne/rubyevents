@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.2].define(version: 2026_06_25_000000) do
+ActiveRecord::Schema[8.2].define(version: 2026_07_02_093844) do
   create_table "active_storage_attachments", force: :cascade do |t|
     t.bigint "blob_id", null: false
     t.datetime "created_at", null: false
@@ -238,7 +238,7 @@ ActiveRecord::Schema[8.2].define(version: 2026_06_25_000000) do
     t.index ["event_series_id"], name: "index_events_on_event_series_id"
     t.index ["kind"], name: "index_events_on_kind"
     t.index ["name"], name: "index_events_on_name"
-    t.index ["slug"], name: "index_events_on_slug"
+    t.index ["slug"], name: "index_events_on_slug", unique: true
   end
 
   create_table "favorite_users", force: :cascade do |t|
@@ -492,6 +492,7 @@ ActiveRecord::Schema[8.2].define(version: 2026_06_25_000000) do
     t.json "settings", default: {}, null: false
     t.string "slug", default: "", null: false
     t.string "speakerdeck", default: "", null: false
+    t.json "spoken_languages", default: [], null: false
     t.string "state_code"
     t.datetime "suspicion_cleared_at"
     t.datetime "suspicion_marked_at"
