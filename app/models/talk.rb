@@ -123,6 +123,7 @@ class Talk < ApplicationRecord
   WATCHABLE_PROVIDERS = ["youtube", "mp4", "vimeo"]
   UNPUBLISHED_PROVIDERS = ["not_recorded", "scheduled", "not_published"]
   SUPPLEMENTARY_KINDS = ["trailer", "recap", "aftermovie"]
+  NON_RECOMMENDABLE_KINDS = SUPPLEMENTARY_KINDS + ["intro", "outro", "trailer", "recap", "aftermovie"]
 
   KIND_LABELS = {
     "keynote" => "Keynote",
