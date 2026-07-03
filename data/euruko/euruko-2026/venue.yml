@@ -32,6 +32,9 @@ hotels:
       country: "Czechia"
       country_code: "CZ"
       display: "Lidická 23, 602 00 Brno, Czechia"
+    coordinates:
+      latitude: 49.202154
+      longitude: 16.6070931
 
   - name: "Hotel Continental"
     kind: "Alternative"
