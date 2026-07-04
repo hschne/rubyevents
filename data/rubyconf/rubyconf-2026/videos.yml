@@ -444,7 +444,141 @@
   video_provider: "scheduled"
   video_id: "lightning-talks-rubyconf-2026"
   description: ""
-  talks: []
+  talks:
+    - id: "keshia-coriolan-lightning-talk-rubyconf-2026"
+      title: "Lightning Talk: Keshia Coriolan"
+      kind: "lightning_talk"
+      event_name: "RubyConf 2026"
+      date: "2026-07-15"
+      video_provider: "scheduled"
+      video_id: "keshia-coriolan-lightning-talk-rubyconf-2026"
+      description: ""
+      speakers:
+        - Keshia Coriolan
+
+    - id: "kj-loving-lightning-talk-rubyconf-2026"
+      title: "Lightning Talk: KJ Loving"
+      kind: "lightning_talk"
+      event_name: "RubyConf 2026"
+      date: "2026-07-15"
+      video_provider: "scheduled"
+      video_id: "kj-loving-lightning-talk-rubyconf-2026"
+      description: ""
+      speakers:
+        - KJ Loving
+
+    - id: "mohammad-arjamand-ali-lightning-talk-rubyconf-2026"
+      title: "Lightning Talk: Mohammad Arjamand Ali"
+      kind: "lightning_talk"
+      event_name: "RubyConf 2026"
+      date: "2026-07-15"
+      video_provider: "scheduled"
+      video_id: "mohammad-arjamand-ali-lightning-talk-rubyconf-2026"
+      description: ""
+      speakers:
+        - Mohammad Arjamand Ali
+
+    - id: "alan-ridlehoover-lightning-talk-rubyconf-2026"
+      title: "Lightning Talk: Alan Ridlehoover"
+      kind: "lightning_talk"
+      event_name: "RubyConf 2026"
+      date: "2026-07-15"
+      video_provider: "scheduled"
+      video_id: "alan-ridlehoover-lightning-talk-rubyconf-2026"
+      description: ""
+      speakers:
+        - Alan Ridlehoover
+
+    - id: "adam-mccrea-lightning-talk-rubyconf-2026"
+      title: "Lightning Talk: Adam McCrea"
+      kind: "lightning_talk"
+      event_name: "RubyConf 2026"
+      date: "2026-07-15"
+      video_provider: "scheduled"
+      video_id: "adam-mccrea-lightning-talk-rubyconf-2026"
+      description: ""
+      speakers:
+        - Adam McCrea
+
+    - id: "ben-greenberg-lightning-talk-rubyconf-2026"
+      title: "Lightning Talk: Ben Greenberg"
+      kind: "lightning_talk"
+      event_name: "RubyConf 2026"
+      date: "2026-07-15"
+      video_provider: "scheduled"
+      video_id: "ben-greenberg-lightning-talk-rubyconf-2026"
+      description: ""
+      speakers:
+        - Ben Greenberg
+
+    - id: "marco-roth-lightning-talk-rubyconf-2026"
+      title: "Lightning Talk: Insta: Snapshot Testing for Ruby"
+      kind: "lightning_talk"
+      event_name: "RubyConf 2026"
+      date: "2026-07-15"
+      video_provider: "scheduled"
+      video_id: "marco-roth-lightning-talk-rubyconf-2026"
+      description: |-
+        Most Ruby tests still rely on manually maintained assertions. What if your test suite could show you exactly what changed and let you approve those changes with a single command?
+
+        Inspired by Rust’s popular Insta library, this talk introduces snapshot testing for Ruby and demonstrates how snapshots, diffs, and review workflows can make testing complex output simpler, more expressive, and easier to maintain - extracted from Herb's test suite.
+      speakers:
+        - Marco Roth
+
+    - id: "cameron-dutro-lightning-talk-rubyconf-2026"
+      title: "Lightning Talk: Cameron Dutro"
+      kind: "lightning_talk"
+      event_name: "RubyConf 2026"
+      date: "2026-07-15"
+      video_provider: "scheduled"
+      video_id: "cameron-dutro-lightning-talk-rubyconf-2026"
+      description: ""
+      speakers:
+        - Cameron Dutro
+
+    - id: "irina-nazarova-lightning-talk-rubyconf-2026"
+      title: "Lightning Talk: Irina Nazarova"
+      kind: "lightning_talk"
+      event_name: "RubyConf 2026"
+      date: "2026-07-15"
+      video_provider: "scheduled"
+      video_id: "irina-nazarova-lightning-talk-rubyconf-2026"
+      description: ""
+      speakers:
+        - Irina Nazarova
+
+    - id: "shuveksha-tuladhar-lightning-talk-rubyconf-2026"
+      title: "Lightning Talk: Shuveksha Tuladhar"
+      kind: "lightning_talk"
+      event_name: "RubyConf 2026"
+      date: "2026-07-15"
+      video_provider: "scheduled"
+      video_id: "shuveksha-tuladhar-lightning-talk-rubyconf-2026"
+      description: ""
+      speakers:
+        - Shuveksha Tuladhar
+
+    - id: "stefan-taitano-lightning-talk-rubyconf-2026"
+      title: "Lightning Talk: Stefan Taitano"
+      kind: "lightning_talk"
+      event_name: "RubyConf 2026"
+      date: "2026-07-15"
+      video_provider: "scheduled"
+      video_id: "stefan-taitano-lightning-talk-rubyconf-2026"
+      description: ""
+      speakers:
+        - Stefan Taitano
+
+    - id: "rachael-wright-munn-lightning-talk-rubyconf-2026"
+      title: "Lightning Talk: Rachael Wright-Munn"
+      kind: "lightning_talk"
+      event_name: "RubyConf 2026"
+      date: "2026-07-15"
+      video_provider: "scheduled"
+      video_id: "rachael-wright-munn-lightning-talk-rubyconf-2026"
+      description: ""
+      speakers:
+        - Rachael Wright-Munn
 
 # Day 3 - Thursday, July 16, 2026
 
