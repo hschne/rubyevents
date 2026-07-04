@@ -416,7 +416,7 @@ class Talk < ApplicationRecord
       return url
     end
 
-    "#{request.protocol}#{request.host}:#{request.port}/#{url}"
+    "#{request.protocol}#{request.host}:#{request.port}#{url}"
   end
 
   def thumbnail(size = :thumbnail_lg)
@@ -701,7 +701,9 @@ class Talk < ApplicationRecord
       event_name: event_name,
       thumbnail_url: thumbnail_url(size: :thumbnail_sm, request: request),
       speakers: speakers.map { |speaker| speaker.to_mobile_json(request) },
-      url: Router.talk_url(self, host: "#{request.protocol}#{request.host}:#{request.port}")
+      url: Router.talk_url(self, host: "#{request.protocol}#{request.host}:#{request.port}"),
+      video_provider: video_provider,
+      video_url: provider_url
     }
   end
 
