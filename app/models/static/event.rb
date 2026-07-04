@@ -264,15 +264,17 @@ module Static
         return published_date
       end
 
-      if conference? && end_date.present?
+      if meetup?
+        return event_record.end_date if event_record.present?
+
+        return Time.at(0)
+      end
+
+      if end_date.present?
         return end_date
       end
 
-      if meetup? && event_record.present?
-        return event_record.end_date
-      end
-
-      if conference? && start_date.present?
+      if start_date.present?
         return start_date
       end
 

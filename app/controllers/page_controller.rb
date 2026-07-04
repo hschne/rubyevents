@@ -19,9 +19,9 @@ class PageController < ApplicationController
 
     featured_ids = (
       base.where.not(recordings_published_date: nil).pluck(:id) +
-      base.with_talks.where(start_date: ..today, end_date: today..).pluck(:id) +
-      base.with_talks.where(end_date: (today - Event::FEATURED_RECENTLY_ENDED_WINDOW)..today.prev_day).pluck(:id) +
-      base.with_talks.where(start_date: today.next_day..(today + Event::FEATURED_UPCOMING_WINDOW)).pluck(:id) +
+      base.where(start_date: ..today, end_date: today..).pluck(:id) +
+      base.where(end_date: (today - Event::FEATURED_RECENTLY_ENDED_WINDOW)..today.prev_day).pluck(:id) +
+      base.where(start_date: today.next_day..(today + Event::FEATURED_UPCOMING_WINDOW)).pluck(:id) +
       base.joins(:cfps).where(cfps: {close_date: today..(today + Event::FEATURED_CFP_CLOSING_WINDOW)}).where.not(cfps: {link: nil}).pluck(:id)
     ).uniq
 
