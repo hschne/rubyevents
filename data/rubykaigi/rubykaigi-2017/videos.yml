@@ -849,7 +849,7 @@
       start_cue: "26:13"
       end_cue: "30:58"
       thumbnail_cue: "26:30"
-      language: "Japanese"
+      language: "English"
       video_provider: "parent"
       video_id: "hiroyuki-sano-rubykaigi-2017"
       speakers:
@@ -1357,4 +1357,3 @@
     - name: "vnmakarov/ruby"
       type: "repo"
       url: "https://github.com/vnmakarov/ruby"
-

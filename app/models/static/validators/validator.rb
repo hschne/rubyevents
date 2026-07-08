@@ -26,6 +26,7 @@ class Static::Validators::Validator
       Static::Validators::TalkDates,
       Static::Validators::TalkId,
       Static::Validators::TalkKind,
+      Static::Validators::TalkLanguage,
       Static::Validators::TalkPublishedAt,
       Static::Validators::TalkRenames,
       Static::Validators::TalkShortKind,
