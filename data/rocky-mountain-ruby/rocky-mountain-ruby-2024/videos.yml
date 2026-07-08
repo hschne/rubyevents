@@ -391,16 +391,17 @@
       speakers:
         - Alan Ridlehoover
 
-    - id: "erie-mueller-rocky-mountain-ruby-2024"
+    - id: "eric-mueller-rocky-mountain-ruby-2024"
+      old_id: "erie-mueller-rocky-mountain-ruby-2024"
       title: "Lightning Talk: Things That Do Stuff"
       kind: "lightning_talk"
       date: "2024-10-08"
       start_cue: "51:16"
       end_cue: "56:05"
       video_provider: "parent"
-      video_id: "erie-mueller-rocky-mountain-ruby-2024"
+      video_id: "eric-mueller-rocky-mountain-ruby-2024"
       speakers:
-        - Erie Mueller
+        - Eric Mueller
 
     - id: "ben-oakes-rocky-mountain-ruby-2024"
       title: "Lightning Talk: Once upon a time in the Ruby ecosystem"
