@@ -217,7 +217,6 @@
         - Kristen Ruben
 
     - id: "lukas-fittl-railsconf-2017"
-      old_id: "lucas-fittl-railsconf-2017"
       title: "Lightning Talk: Lukas Fittl"
       kind: "lightning_talk" # TODO: missing talk title
       start_cue: "17:44"

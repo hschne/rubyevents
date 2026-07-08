@@ -519,7 +519,6 @@
         - unak
 
 - id: "kouhei-sutou-keynote-rubykaigi-2018"
-  old_id: "kouhei-sutou-rubykaigi-2018"
   title: "Keynote: My way with Ruby"
   raw_title: "[JA][Keynote] My way with Ruby / Kouhei Sutou @ktou"
   kind: "keynote"
@@ -865,7 +864,6 @@
     - Kenta Murata
 
 - id: "yusuke-endoh-rubykaigi-2018"
-  old_id: "type-profiler-an-analysis-to-guess-type-signatures-rubykaigi-2018"
   title: "Type Profiler: An analysis to guess type signatures"
   raw_title: "[JA] Type Profiler: An analysis to guess type signatures / Yusuke Endoh @mametter"
   event_name: "RubyKaigi 2018"

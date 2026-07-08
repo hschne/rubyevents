@@ -77,7 +77,6 @@
         - Greg Belt
 
     - id: "ryan-bigg-railsconf-2012"
-      old_id: "ryan-biggs-railsconf-2012"
       title: "Lightning Talk: Integration testing engines"
       kind: "lightning_talk"
       date: "2012-04-23"
@@ -862,7 +861,6 @@
     - James Edward Gray II
 
 - id: "ilya-grigorik-railsconf-2012"
-  old_id: "ilya-grigorick-railsconf-2012"
   title: "Let's make the web faster - tips from trenches @ Google"
   raw_title: "Let's make the web faster - tips from trenches @ Google by Ilya Grigorick"
   event_name: "RailsConf 2012"

@@ -1067,7 +1067,6 @@
         - Haley Anderson
 
     - id: "mike-virata-stone-railsconf-2016"
-      old_id: "mike-virata-ston-railsconf-2016"
       title: "Lightning Talk: Mike Virata-Ston"
       kind: "lightning_talk" # TODO: talk title
       start_cue: "32:27"

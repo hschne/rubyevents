@@ -290,7 +290,6 @@
         - Brian Cooke
 
     - id: "brian-mitchell-mountainwest-rubyconf-2008"
-      old_id: "brian-mitcheel-mountainwest-rubyconf-2008"
       title: "Lightning Talk: I/O and Ruby"
       kind: "lightning_talk"
       start_cue: "31:28"

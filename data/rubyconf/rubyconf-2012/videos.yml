@@ -71,7 +71,6 @@
     - Ben Orenstein
 
 - id: "pat-shaughnessy-rubyconf-2012"
-  old_id: "pat-saughnessy-rubyconf-2012"
   title: "Dissecting a Ruby Block"
   raw_title: "Ruby Conf 12 - Dissecting a Ruby Block by Pat Saughnessy"
   event_name: "RubyConf 2012"
