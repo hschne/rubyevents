@@ -33,4 +33,11 @@ class Static::Validators::Validator
       Static::Validators::UniqueTalkIds
     ]
   end
+
+  def self.involvement_validator_classes
+    @involvement_validators ||= [
+      Static::Validators::Schema,
+      Static::Validators::InvolvementRoleName
+    ]
+  end
 end
