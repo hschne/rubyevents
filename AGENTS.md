@@ -23,6 +23,7 @@ This file provides guidance to coding agents (Claude Code, Cursor, Codex, etc.) 
 - `bundle exec standardrb --fix` - Fix Ruby formatting issues
 - `yarn format` - Fix JavaScript formatting
 - `bundle exec erb_lint --lint-all --autocorrect` - Fix ERB templates
+- `yarn herb:lint` - Lint ERB templates with the Herb linter
 - `bundle exec yerba apply` - Format YAML files in data/ (uses Yerbafile rules)
 - `bundle exec yerba check` - Validate YAML files match Yerbafile rules (used in CI)
 
@@ -84,6 +85,48 @@ Conference data is stored in YAML files under `/data/`:
 - **Search**: Full-text search for Talks and Speakers using Sqlite virtual tables
 - **Jobs**: Background processing for video statistics, transcripts, AI summarization
 - **Analytics**: Page view tracking with Ahoy
+- **Monitoring**: AppSignal for errors/performance, Mission Control for job monitoring
+- **AI Prompts**: Stored in `app/models/prompts/`
+
+### Code Conventions
+
+**Models:**
+
+- Shared behavior lives in concerns: `Suggestable`, `Sluggable`, `Rollupable`, `Searchable`, `Watchable`
+- Slugs via `configure_slug(attribute: :title, auto_suffix_on_collision: true)`
+- Associated Objects pattern using the `active_record-associated_object` gem
+- Model annotations via `annotaterb`
+- Counter caches (`counter_cache: :talks_count`), `inverse_of`, and scoped associations
+- Normalize data with `normalizes`; encrypt sensitive fields (`encrypts :email, deterministic: true`)
+- Use Rails `enum` for status/kind fields
+
+**Controllers:**
+
+- `ApplicationController` includes `Authenticable` (session auth), `Metadata` (SEO tags), and `Analytics` (page tracking)
+- Use `skip_before_action :authenticate_user!` for public pages
+- Access the current user via `Current.user`
+- Pagination with the `pagy` gem
+- Keep controllers slim — business logic belongs in models/services
+
+**ViewComponents:**
+
+- All components inherit from `ApplicationComponent` (Dry::Initializer params, `attributes` handling, `display` option)
+- UI components live in the `Ui::` namespace under `app/components/ui/`
+- Use the `viewcomponents` skill when creating or modifying UI components — it documents the full conventions (mapping constants, `component_classes`, Stimulus integration, testing)
+
+**Frontend:**
+
+- Stimulus controllers in `app/javascript/controllers/` with kebab-case names
+- Tailwind CSS + daisyUI, utility-first, CSS variables for theming
+- Images in `app/assets/images/`, prefer WebP
+
+**Formatting & Linting:**
+
+- Ruby is formatted with `standardrb` (never rubocop directly)
+- JavaScript with `yarn format` (JS Standard)
+- ERB templates with `bundle exec erb_lint --lint-all --autocorrect`, plus `yarn herb:lint` for Herb linting (the project uses [Herb](https://herb-tools.dev) as its ERB engine)
+- YAML data files with `bundle exec yerba apply` — see the Yerba section above; prefer yerba commands over manual edits for `data/` files
+- `bin/lint` runs the whole suite (yerba, data validation, standardrb, JS, erb_lint)
 
 ### Authentication & Authorization
 

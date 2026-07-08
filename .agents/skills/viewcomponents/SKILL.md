@@ -1,10 +1,10 @@
 ---
-alwaysApply: false
+name: viewcomponents
+description: Conventions for creating and maintaining UI ViewComponents in the Ui:: namespace. Use when creating or modifying components in app/components/ — covers ApplicationComponent inheritance, Dry::Types parameters, CSS mapping constants, Stimulus integration, templates, and component tests.
 ---
 
-# RubyVideo ViewComponents - UI Component Rules
 
-> **Main Project Rules**: See [cursorrules.mdc](./cursorrules.mdc) for complete RubyVideo project guidelines.
+# RubyVideo ViewComponents - UI Component Rules
 
 ## UI Component Architecture
 
