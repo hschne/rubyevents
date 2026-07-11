@@ -333,6 +333,11 @@ Rails.application.routes.draw do
     namespace :native do
       namespace :v1 do
         get "home", to: "/page#home", defaults: {format: "json"}
+
+        resources :events, only: [], param: :slug do
+          resource :live_schedule, only: :show, controller: "live_schedules", defaults: {format: "json"}
+        end
+
         resource :refresh, only: :show, controller: "refresh"
         resource :oauth, only: :show, controller: "oauth"
         resources :start, only: :show, param: :provider, controller: "start"
