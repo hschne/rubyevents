@@ -61,6 +61,10 @@ module Event::TypesenseSearchable
       attribute :card_image_path
       attribute :avatar_image_path
 
+      attribute :avatar_url do
+        Router.image_path(avatar_image_path) if avatar_image_path.present?
+      end
+
       attribute :alias_names do
         slug_aliases.pluck(:name)
       end
@@ -125,6 +129,7 @@ module Event::TypesenseSearchable
         {"name" => "formatted_dates", "type" => "string", "optional" => true},
         {"name" => "card_image_path", "type" => "string", "optional" => true},
         {"name" => "avatar_image_path", "type" => "string", "optional" => true},
+        {"name" => "avatar_url", "type" => "string", "optional" => true},
         {"name" => "alias_slugs", "type" => "string[]", "optional" => true},
         {"name" => "series", "type" => "object", "optional" => true},
 
