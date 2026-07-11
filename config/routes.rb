@@ -338,6 +338,7 @@ Rails.application.routes.draw do
           resource :live_schedule, only: :show, controller: "live_schedules", defaults: {format: "json"}
         end
 
+        resource :next_event, only: :show, controller: "next_events", defaults: {format: "json"}
         resource :refresh, only: :show, controller: "refresh"
         resource :oauth, only: :show, controller: "oauth"
         resources :start, only: :show, param: :provider, controller: "start"
