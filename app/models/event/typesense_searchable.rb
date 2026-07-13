@@ -3,6 +3,9 @@
 module Event::TypesenseSearchable
   extend ActiveSupport::Concern
 
+  SEARCH_QUERY_BY = "name,description,series_name,series_slug,alias_names,alias_slugs,series_alias_names,series_alias_slugs,keynote_speaker_names,topic_names,talk_language_names,kind,city,country_name"
+  SEARCH_QUERY_BY_WEIGHTS = "10,3,8,7,5,5,6,6,4,3,3,3,2,2"
+
   included do
     include ::Typesense
 
@@ -157,11 +160,15 @@ module Event::TypesenseSearchable
       TypesenseIndexJob.perform_later(record, remove ? "typesense_remove_from_index!" : "typesense_index!")
     end
 
+    def typesense_multi_search_config
+      {collection: "Event", query_by: SEARCH_QUERY_BY, query_by_weights: SEARCH_QUERY_BY_WEIGHTS}
+    end
+
     def typesense_search_events(query, options = {})
-      query_by_fields = "name,description,series_name,series_slug,alias_names,alias_slugs,series_alias_names,series_alias_slugs,keynote_speaker_names,topic_names,talk_language_names,kind,city,country_name"
+      query_by_fields = SEARCH_QUERY_BY
 
       search_options = {
-        query_by_weights: "10,3,8,7,5,5,6,6,4,3,3,3,2,2",
+        query_by_weights: SEARCH_QUERY_BY_WEIGHTS,
         per_page: options[:per_page] || 20,
         page: options[:page] || 1
       }
