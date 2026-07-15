@@ -830,3 +830,46 @@
 
     https://www.meetup.com/chicagoruby/events/313911720/
   talks: []
+
+- id: "chicagoruby-meetup-july-2026"
+  title: "ChicagoRuby Meetup - July 2026"
+  raw_title: "Chicago Ruby Meetup | July 2026: Staying Indispensable in the Age of AI"
+  event_name: "ChicagoRuby Meetup - July 2026"
+  date: "2026-07-01"
+  published_at: "2026-07-03T15:08:03Z"
+  video_provider: "youtube"
+  video_id: "X01yYeoSzGA"
+  thumbnail_lg: "https://img.youtube.com/vi/X01yYeoSzGA/hqdefault.jpg"
+  thumbnail_xl: "https://img.youtube.com/vi/X01yYeoSzGA/hqdefault.jpg"
+  description: |-
+    Chicago Ruby Meetup | July 2026: Staying Indispensable in the Age of AI
+
+    Speakers:
+    * Alan Ridlehoover - "Indispensable: What Human Programmers Can Learn from Human Computers"
+    * Tony Yunker - "Testing ReadOnly Models"
+  talks:
+    - id: "alan-ridlehoover-chicagoruby-meetup-july-2026"
+      title: "Indispensable: What Human Programmers Can Learn from Human Computers"
+      event_name: "ChicagoRuby Meetup - July 2026"
+      date: "2026-07-01"
+      start_cue: "06:47"
+      end_cue: "33:26"
+      video_provider: "parent"
+      video_id: "alan-ridlehoover-chicagoruby-meetup-july-2026"
+      description: |-
+        How engineers can remain indispensable as AI transforms software development, drawing on examples from Hidden Figures to highlight continuous learning, adaptability, and human judgment.
+      speakers:
+        - Alan Ridlehoover
+
+    - id: "tony-yunker-chicagoruby-meetup-july-2026"
+      title: "Testing ReadOnly Models"
+      event_name: "ChicagoRuby Meetup - July 2026"
+      date: "2026-07-01"
+      start_cue: "33:26"
+      end_cue: "1:03:30"
+      video_provider: "parent"
+      video_id: "tony-yunker-chicagoruby-meetup-july-2026"
+      description: |-
+        How Rails read-only models protect application data and a lightweight metaprogramming technique that temporarily enables writes during test setup while preserving production behavior.
+      speakers:
+        - Tony Yunker
