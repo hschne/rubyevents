@@ -21,7 +21,7 @@ GIT
 
 GIT
   remote: https://github.com/rails/rails.git
-  revision: fac8810bcdec7b796a471b56a6dcbaa6648e2984
+  revision: 43a1f3b574cceafcd78d288a1339e37711cf79c7
   specs:
     actioncable (8.2.0.alpha)
       actionpack (= 8.2.0.alpha)
@@ -141,7 +141,7 @@ GEM
 GEM
   remote: https://rubygems.org/
   specs:
-    action_text-trix (2.1.18)
+    action_text-trix (2.1.19)
       railties
     active_job-performs (1.0.1)
       activejob (>= 6.1)
@@ -475,7 +475,7 @@ GEM
       net-pop
       net-smtp
     mapkick-rb (0.2.0)
-    marcel (1.1.0)
+    marcel (1.2.1)
     marksmith (0.4.8)
       activesupport
     matrix (0.4.3)
@@ -820,7 +820,7 @@ GEM
       hashdiff (>= 0.4.0, < 2.0.0)
     webrick (1.9.2)
     websocket (1.2.11)
-    websocket-driver (0.8.0)
+    websocket-driver (0.8.1)
       base64
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -840,7 +840,7 @@ GEM
       nokogiri (~> 1.15)
     yt (0.34.1)
       activesupport
-    zeitwerk (2.7.5)
+    zeitwerk (2.8.2)
 
 PLATFORMS
   aarch64-linux
@@ -944,7 +944,7 @@ DEPENDENCIES
   yt
 
 RUBY VERSION
-  ruby 4.0.1
+  ruby 4.0.6
 
 BUNDLED WITH
   4.0.3
