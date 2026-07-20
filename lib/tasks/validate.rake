@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "gum"
+require "open3"
 require "parallel"
 
 namespace :validate do
@@ -289,9 +290,22 @@ namespace :validate do
     exit 1 unless validate_speakerdeck_urls
   end
 
+  def reject_git_ignored(files)
+    return files if files.empty?
+
+    output, status = Open3.capture2("git", "check-ignore", "--stdin", stdin_data: files.join("\n"))
+    return files unless [0, 1].include?(status.exitstatus)
+
+    files - output.split("\n")
+  rescue
+    files
+  end
+
   def validate_data_files
+    files = Dir.glob(Rails.root.join("data/**/*"), File::FNM_DOTMATCH).select { |file| File.file?(file) }
+
     validate_files(
-      files: Dir.glob(Rails.root.join("data/**/*"), File::FNM_DOTMATCH).select { |file| File.file?(file) },
+      files: reject_git_ignored(files),
       validators: [
         Static::Validators::ExpectedDataFiles
       ],
