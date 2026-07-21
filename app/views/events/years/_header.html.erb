@@ -4,13 +4,7 @@
   </h1>
 
   <div class="mt-2 flex flex-col gap-3 md:flex-row md:items-stretch md:justify-between md:gap-4 md:border-b md:border-gray-200 hotwire-native:hidden">
-    <nav aria-label="Event collections" class="flex grow items-end gap-6 text-sm font-medium">
-      <%= link_to "Upcoming", events_path, class: "pb-3 -mb-px border-b-2 border-transparent text-gray-500 hover:text-gray-900 whitespace-nowrap" %>
-      <%= link_to "Past", past_events_path, class: "pb-3 -mb-px border-b-2 border-transparent text-gray-500 hover:text-gray-900 whitespace-nowrap" %>
-      <span class="pb-3 border-b-2 border-primary text-primary whitespace-nowrap">Calendar</span>
-      <%= link_to "Archive", archive_events_path, class: "pb-3 -mb-px border-b-2 border-transparent text-gray-500 hover:text-gray-900 whitespace-nowrap" %>
-      <%= link_to "Meetups", meetups_events_path, class: "pb-3 -mb-px border-b-2 border-transparent text-gray-500 hover:text-gray-900 whitespace-nowrap" %>
-    </nav>
+    <%= render "events/navigation", active: :calendar %>
 
     <nav aria-label="Calendar years" class="flex shrink-0 items-center gap-2 overflow-x-auto pb-2 md:pb-1">
       <% if year != Date.current.year %>
