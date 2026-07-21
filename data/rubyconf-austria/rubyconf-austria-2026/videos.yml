@@ -83,7 +83,7 @@
 
 - id: "chad-fowler-keynote-rubyconf-austria-2026"
   old_id: "chad-fowler-rubyconf-austria-2026"
-  title: "Keynote: This is What We've Been Training For"
+  title: "This is What We've Been Training For"
   raw_title: "This Is What We've Been Training For — Chad Fowler | RubyConf Austria 2026 Opening Keynote"
   kind: "keynote"
   event_name: "RubyConf Austria 2026"
@@ -100,8 +100,9 @@
     - Chad Fowler
 
 - id: "obie-fernandez-rubyconf-austria-2026"
-  title: "Talk by Obie Fernandez"
+  title: "A Tale of Two Chefs"
   raw_title: "A Tale of Two Chefs: Debt-Free Engineering in the Age of AI — Obie Fernandez | RubyConf Austria 2026"
+  kind: "keynote"
   event_name: "RubyConf Austria 2026"
   date: "2026-05-30"
   published_at: "2026-07-18T09:57:21Z"
@@ -383,7 +384,7 @@
 
 - id: "dave-thomas-keynote-rubyconf-austria-2026"
   old_id: "dave-thomas-rubyconf-austria-2026"
-  title: "Keynote: Start Writing Ruby"
+  title: "Start Writing Ruby"
   raw_title: "Start Writing Ruby: Classes Are Evil — Dave Thomas | RubyConf Austria 2026 Closing Keynote"
   kind: "keynote"
   event_name: "RubyConf Austria 2026"
