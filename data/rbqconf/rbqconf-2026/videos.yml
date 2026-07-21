@@ -1,6 +1,5 @@
 ---
 - id: "intro-rbqconf-2026"
-  old_id: "opening-remarks-rbqconf-2026"
   title: "Opening Remarks"
   kind: "intro"
   event_name: "RBQConf 2026"
@@ -12,7 +11,6 @@
     - TODO # RBQ MC
 
 - id: "kinsey-durham-grace-rbqconf-2026"
-  old_id: "kinsey-durham-grace-rbqconf-2025"
   title: "Keynote: Building GitHub's Coding Agents, Wrangling Toddlers, & Untangling Fly Lines"
   raw_title: "RBQ 2026 Opening Keynote Building GitHub's coding agents, wrangling toddlers, & untangling fly lines"
   kind: "keynote"
@@ -28,11 +26,13 @@
 
 - id: "daniel-colson-rbqconf-2026"
   title: "Regex as Easy as /(abc)?/"
+  raw_title: "RBQ 2026 - LeRegex as Easy as /(abc)?/t it Crash. No, Really!"
   event_name: "RBQConf 2026"
   date: "2026-03-26"
+  published_at: "2026-07-09T14:53:38Z"
   announced_at: "2026-01-23"
-  video_provider: "scheduled"
-  video_id: "daniel-colson-rbqconf-2026"
+  video_provider: "youtube"
+  video_id: "zkb_DKJXC9Y"
   description: |-
     What really happens when Ruby sees a regular expression like /abc/? While many of us use regular expressions regularly, we don’t necessarily think much about how they really work. In this talk we’ll trace a regular expression through Ruby’s internals, from parsing the pattern into a syntax tree, to compiling into bytecode, to executing that bytecode on a small virtual machine. You’ll come away with a deeper understanding and appreciation for Ruby’s regular expression engine, and hopefully an increased confidence in working with regular expressions in Ruby.
   speakers:
@@ -67,7 +67,6 @@
     - Szymon Fiedler
 
 - id: "burnt-ends-lightning-talks-day-1-rbqconf-2026"
-  old_id: "burnt-ends-rbqconf-2026"
   title: "Burnt Ends (Lightning Talks Day 1)"
   raw_title: "Burnt Ends"
   date: "2026-03-26"
@@ -153,11 +152,13 @@
 
 - id: "bart-de-water-rbqconf-2026"
   title: "How to quit your job (and come back later)"
+  raw_title: "RBQ 2026 - How to quit your job (and come back later)"
   event_name: "RBQConf 2026"
   date: "2026-03-27"
+  published_at: "2026-07-07T13:41:02Z"
   announced_at: "2026-01-25"
-  video_provider: "scheduled"
-  video_id: "bart-de-water-rbqconf-2026"
+  video_provider: "youtube"
+  video_id: "wtrmSzO9API"
   description: |-
     Your background job ran for six hours, processed 2 million records, then died 94% of the way through a deploy. Sound familiar?
 
@@ -218,7 +219,6 @@
     - Chris Gratigny
 
 - id: "burnt-ends-lightning-talks-day-2-rbqconf-2026"
-  old_id: "burnt-end-2-rbqconf-2026"
   title: "Burnt Ends (Lightning Talks Day 2)"
   raw_title: "Burnt Ends, Day 2"
   date: "2026-03-27"
@@ -255,7 +255,6 @@
     - Cristian Planas
 
 - id: "nickolas-means-rbqconf-2026"
-  old_id: "nickolas-means-rbqconf-2025"
   title: "Keynote: 114 Miles to the Final Cut"
   raw_title: "RBQ 2026 Closing Keynote - 114 Miles to the Final Cut"
   kind: "keynote"
@@ -270,7 +269,6 @@
     - Nickolas Means
 
 - id: "outro-rbqconf-2026"
-  old_id: "closing-remarks-rbqconf-2026"
   title: "Closing Remarks"
   kind: "outro"
   date: "2026-03-27"

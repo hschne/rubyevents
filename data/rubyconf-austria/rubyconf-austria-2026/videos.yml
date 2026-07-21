@@ -60,7 +60,6 @@
     - Nadir Hošić
 
 - id: "panel-rubyconf-austria-2026"
-  old_id: "panel-discussion-rubyconf-austria-2026"
   title: "Panel Discussion"
   raw_title: "AI, Agents & the Future of Ruby: Chad Fowler, José Valim, Obie Fernandez, Armin Ronacher"
   kind: "panel"
@@ -366,7 +365,6 @@
     - Carmine Paolino
 
 - id: "dalma-boros-jess-sullivan-rubyconf-austria-2026"
-  old_id: "dalma-jess-rubyconf-austria-2026"
   title: "Why You Should Go Surfing with Strangers: Creating Connection in the Ruby Community"
   raw_title: "Why You Should Go Surfing with Strangers — Dalma Boros & Jess Sullivan | RubyConf Austria 2026"
   event_name: "RubyConf Austria 2026"
