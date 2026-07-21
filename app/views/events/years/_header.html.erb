@@ -3,13 +3,33 @@
     <%= title "#{year} Events Calendar" %>
   </h1>
 
-  <div class="mt-2 border-b border-gray-200 hotwire-native:hidden">
-    <nav aria-label="Event collections" class="flex items-end gap-6 text-sm font-medium">
+  <div class="mt-2 flex flex-col gap-3 md:flex-row md:items-stretch md:justify-between md:gap-4 md:border-b md:border-gray-200 hotwire-native:hidden">
+    <nav aria-label="Event collections" class="flex grow items-end gap-6 text-sm font-medium">
       <%= link_to "Upcoming", events_path, class: "pb-3 -mb-px border-b-2 border-transparent text-gray-500 hover:text-gray-900 whitespace-nowrap" %>
       <%= link_to "Past", past_events_path, class: "pb-3 -mb-px border-b-2 border-transparent text-gray-500 hover:text-gray-900 whitespace-nowrap" %>
+      <span class="pb-3 border-b-2 border-primary text-primary whitespace-nowrap">Calendar</span>
       <%= link_to "Archive", archive_events_path, class: "pb-3 -mb-px border-b-2 border-transparent text-gray-500 hover:text-gray-900 whitespace-nowrap" %>
       <%= link_to "Meetups", meetups_events_path, class: "pb-3 -mb-px border-b-2 border-transparent text-gray-500 hover:text-gray-900 whitespace-nowrap" %>
-      <span class="pb-3 border-b-2 border-primary text-primary whitespace-nowrap">Calendar</span>
+    </nav>
+
+    <nav aria-label="Calendar years" class="flex shrink-0 items-center gap-2 overflow-x-auto pb-2 md:pb-1">
+      <% if year != Date.current.year %>
+        <%= link_to "Today", year_events_path(year: Date.current.year), class: "inline-flex h-10 items-center rounded-full bg-red-500 px-3 text-sm font-medium text-white transition-all hover:bg-red-600 md:px-4" %>
+      <% end %>
+
+      <% if has_previous_year %>
+        <%= link_to year_events_path(year: year - 1), class: "flex h-10 items-center gap-2 rounded-full border border-gray-200 px-3 text-sm text-gray-500 transition-all hover:border-gray-900 hover:text-gray-900 md:px-4 md:text-base" do %>
+          <%= fa "arrow-left", class: "text-xs md:text-sm" %>
+          <span class="font-medium"><%= year - 1 %></span>
+        <% end %>
+      <% end %>
+
+      <% if has_next_year %>
+        <%= link_to year_events_path(year: year + 1), class: "flex h-10 items-center gap-2 rounded-full border border-gray-200 px-3 text-sm text-gray-500 transition-all hover:border-gray-900 hover:text-gray-900 md:px-4 md:text-base" do %>
+          <span class="font-medium"><%= year + 1 %></span>
+          <%= fa "arrow-right", class: "text-xs md:text-sm" %>
+        <% end %>
+      <% end %>
     </nav>
   </div>
 </header>
