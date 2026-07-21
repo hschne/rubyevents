@@ -4,7 +4,7 @@
   </h1>
 
   <div class="mt-2 flex flex-col gap-3 md:flex-row md:items-stretch md:justify-between md:gap-4 md:border-b md:border-gray-200 hotwire-native:hidden">
-    <%= render "events/navigation", active: :calendar %>
+    <%= render "events/collections_navigation", active: :calendar %>
 
     <nav aria-label="Calendar years" class="flex shrink-0 items-center gap-2 overflow-x-auto pb-2 md:pb-1">
       <% if year != Date.current.year %>
