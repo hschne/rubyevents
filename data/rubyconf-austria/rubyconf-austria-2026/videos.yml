@@ -9,7 +9,7 @@
   event_name: "RubyConf Austria 2026"
   date: "2026-05-29"
   track: "Haus der Musik"
-  video_provider: "scheduled"
+  video_provider: "not_published"
   video_id: "hans-schnedlitz-rubyconf-austria-2026"
   description: ""
   speakers:
@@ -81,7 +81,8 @@
 
 # Day 2 - May 30th (Das MuTh)
 
-- id: "chad-fowler-rubyconf-austria-2026"
+- id: "chad-fowler-keynote-rubyconf-austria-2026"
+  old_id: "chad-fowler-rubyconf-austria-2026"
   title: "Keynote: This is What We've Been Training For"
   raw_title: "This Is What We've Been Training For — Chad Fowler | RubyConf Austria 2026 Opening Keynote"
   kind: "keynote"
@@ -135,7 +136,7 @@
   date: "2026-05-30"
   announced_at: "2025-12-27 12:05:00 UTC"
   track: "Workshop"
-  video_provider: "scheduled"
+  video_provider: "not_published"
   video_id: "john-gallagher-rubyconf-austria-2026"
   description: ""
   speakers:
@@ -160,7 +161,7 @@
   title: "RuboCop 2.0: Where do we go now?"
   raw_title: "RuboCop 2.0: Where Do We Go Now? — Bozhidar Batsov | RubyConf Austria 2026"
   event_name: "RubyConf Austria 2026"
-  date: "2026-05-29"
+  date: "2026-05-30"
   published_at: "2026-07-18T10:33:30Z"
   announced_at: "2025-12-27 12:05:00 UTC"
   track: "Main Stage"
@@ -171,92 +172,160 @@
   speakers:
     - Bozhidar Batsov
 
-- id: "lightning-talks-rubyconf-austria-2026"
+- id: "lightning-talk-rubyconf-austria-2026"
+  old_id: "lightning-talks-rubyconf-austria-2026"
   title: "Lightning Talks"
+  raw_title: "Lightning Talks: OSS Ideas, Event Sourcing, Lovli, Hotwire Inspector & picjs | RubyConf Austria 2026"
   kind: "lightning_talk"
   event_name: "RubyConf Austria 2026"
   date: "2026-05-30"
+  published_at: "2026-07-20T07:37:25Z"
   track: "Main Stage"
-  video_provider: "scheduled"
-  video_id: "lightning-talks-rubyconf-austria-2026"
-  description: ""
+  video_provider: "youtube"
+  video_id: "tii5S9vq1eU"
+  description: |-
+    Five lightning talks cover finding worthwhile open source problems, event sourcing in Rails, the Lovli URL shortener, debugging Hotwire applications, and creating animated web graphics with picjs.
   talks:
-    - id: "lukasz-reszke-rubyconf-austria-2026"
-      title: "Lightning Talk: Storing Data as a Sequence of Events"
+    - id: "chikahiro-tokoro-rubyconf-austria-2026"
+      title: "Lightning Talk: Strategy for Finding a Problem for OSS, with Real Examples"
       kind: "lightning_talk"
       event_name: "RubyConf Austria 2026"
       date: "2026-05-30"
+      start_cue: "01:52"
+      end_cue: "07:00"
+      video_provider: "parent"
+      video_id: "chikahiro-tokoro-rubyconf-austria-2026"
+      description: |-
+        Chikahiro Tokoro shares practical strategies for identifying worthwhile open source problems through real examples.
+      speakers:
+        - Chikahiro Tokoro
+      additional_resources:
+        - name: "Chikahiro Tokoro"
+          type: "link"
+          url: "https://chikahirotokoro.com"
+
+    - id: "lukasz-reszke-rubyconf-austria-2026"
+      title: "Lightning Talk: Event Sourcing — Store Your Rails Data as a Sequence of Facts"
+      kind: "lightning_talk"
+      event_name: "RubyConf Austria 2026"
+      date: "2026-05-30"
+      start_cue: "07:00"
+      end_cue: "14:08"
       slides_url: "https://speakerdeck.com/lukaszreszke/storing-data-as-a-sequence-of-events-rubyconfat"
-      video_provider: "scheduled"
+      video_provider: "parent"
       video_id: "lukasz-reszke-rubyconf-austria-2026"
-      description: ""
+      description: |-
+        Łukasz Reszke explains how event sourcing stores application data as an immutable sequence of facts.
       speakers:
         - Łukasz Reszke
       additional_resources:
-        - name: "Blog Post: Lightning Talk Supplement"
+        - name: "Rails Event Store"
+          type: "library"
+          url: "https://railseventstore.org"
+        - name: "Lightning Talk Supplement"
           type: "blog"
           url: "https://blog.arkency.com/storing-data-as-a-sequence-of-events-ruby-conf-austria-lightning-talk-supplement/"
 
-    - id: "radan-skoric-rubyconf-austria-2026"
-      title: "Lightning Talk: Talk by Radan Skorić"
-      kind: "lightning_talk"
-      event_name: "RubyConf Austria 2026"
-      date: "2026-05-30"
-      video_provider: "scheduled"
-      video_id: "radan-skoric-rubyconf-austria-2026"
-      description: ""
-      speakers:
-        - Radan Skorić
-
     - id: "fabio-sangiovanni-rubyconf-austria-2026"
-      title: "Lightning Talk: Lovli - A lovable url shortener"
+      title: "Lightning Talk: Lovli — A Lovable URL Shortener"
       kind: "lightning_talk"
       event_name: "RubyConf Austria 2026"
       date: "2026-05-30"
-      video_provider: "scheduled"
+      start_cue: "14:08"
+      end_cue: "17:02"
+      video_provider: "parent"
       video_id: "fabio-sangiovanni-rubyconf-austria-2026"
       description: |-
-        https://lovli.fyi
-        https://github.com/callmesangio/lovli-cli
+        Fabio Sangiovanni introduces Lovli, a friendly URL shortener built with Ruby.
       speakers:
         - Fabio Sangiovanni
+      additional_resources:
+        - name: "Lovli"
+          type: "link"
+          url: "https://lovli.fyi"
+        - name: "Lovli CLI"
+          type: "repo"
+          url: "https://github.com/callmesangio/lovli-cli"
 
-    - id: "lightning-talk-rubyconf-austria-2026"
-      old_id: "lightning-talk-4-rubyconf-austria-2026"
-      title: "Lightning Talk"
+    - id: "radan-skoric-rubyconf-austria-2026"
+      title: "Lightning Talk: Hotwire Inspector — A Browser Extension for Inspecting Hotwire Apps"
       kind: "lightning_talk"
       event_name: "RubyConf Austria 2026"
       date: "2026-05-30"
-      video_provider: "scheduled"
-      video_id: "lightning-talk-rubyconf-austria-2026"
-      description: ""
+      start_cue: "17:02"
+      end_cue: "21:10"
+      video_provider: "parent"
+      video_id: "radan-skoric-rubyconf-austria-2026"
+      description: |-
+        Radan Skorić demonstrates Hotwire Inspector, a browser extension for understanding and debugging Hotwire applications.
       speakers:
-        - TODO
+        - Radan Skorić
+      additional_resources:
+        - name: "Master Hotwire"
+          type: "book"
+          url: "https://masterhotwire.com"
+
+    - id: "dave-thomas-lightning-talk-rubyconf-austria-2026"
+      title: "Lightning Talk: picjs — A Language for Creating Animated Web Graphics"
+      kind: "lightning_talk"
+      event_name: "RubyConf Austria 2026"
+      date: "2026-05-30"
+      start_cue: "25:19"
+      end_cue: "33:53"
+      video_provider: "parent"
+      video_id: "dave-thomas-lightning-talk-rubyconf-austria-2026"
+      description: |-
+        Dave Thomas presents picjs, a small language for creating animated graphics on the web.
+      speakers:
+        - Dave Thomas
+      additional_resources:
+        - name: "picjs"
+          type: "repo"
+          url: "https://github.com/pragdave-devo/picjs"
+
+- id: "iman-jahic-hosic-rubyconf-austria-2026"
+  title: "Piano Performance"
+  raw_title: "Piano: Iman Jahić Hošić — Live at Das MuTh | RubyConf Austria 2026"
+  event_name: "RubyConf Austria 2026"
+  date: "2026-05-30"
+  published_at: "2026-07-20T07:16:29Z"
+  track: "Main Stage"
+  video_provider: "youtube"
+  video_id: "0KaWnFykEv4"
+  description: |-
+    Iman Jahić Hošić performs a reflective two-piece classical piano set.
+  speakers:
+    - Iman Jahić Hošić
 
 - id: "andrzej-krzywda-rubyconf-austria-2026"
   title: "15 years of Rails with Domain Driven Design - lessons learnt"
+  raw_title: "15 Years of Rails with Domain-Driven Design — Andrzej Krzywda | RubyConf Austria 2026"
   event_name: "RubyConf Austria 2026"
   date: "2026-05-30"
+  published_at: "2026-07-20T08:01:21Z"
   announced_at: "2025-12-27 12:05:00 UTC"
   track: "Main Stage"
   slides_url: "https://speakerdeck.com/andrzejkrzywda/15-years-of-rails-with-domain-driven-design-lessons-learnt"
-  video_provider: "scheduled"
-  video_id: "andrzej-krzywda-rubyconf-austria-2026"
-  description: ""
+  video_provider: "youtube"
+  video_id: "zewTY3J42DU"
+  description: |-
+    Andrzej Krzywda distills 15 years of combining Rails with domain-driven design, CQRS, and event-driven architecture. He shows how small, isolated read models, domains, and process managers make applications easier for both people and AI agents to change safely.
   speakers:
     - Andrzej Krzywda
 
 - id: "charles-oliver-nutter-rubyconf-austria-2026"
-  title: "Workshop: Do More With JRuby"
+  title: "Workshop: Do More With JRuby (Cancelled)"
   kind: "workshop"
   event_name: "RubyConf Austria 2026"
   date: "2026-05-30"
   announced_at: "2025-12-27 12:05:00 UTC"
+  status: "cancelled"
   track: "Workshop"
   slides_url: "https://speakerdeck.com/headius/jruby-workshop-at-rubyconf-austria-2026"
-  video_provider: "scheduled"
+  video_provider: "not_recorded"
   video_id: "charles-oliver-nutter-rubyconf-austria-2026"
-  description: ""
+  description: |-
+    This workshop was cancelled and replaced by Jan Grodowski's workshop on Undercover.
   speakers:
     - Charles Oliver Nutter
   additional_resources:
@@ -264,32 +333,56 @@
       type: "code"
       url: "https://github.com/headius/tutorial"
 
-- id: "carmine-paolino-rubyconf-austria-2026"
-  title: "Ruby Is the Best Language for Building AI Web Apps"
+- id: "jan-grodowski-rubyconf-austria-2026"
+  title: "Workshop: Test Coverage for Agentic Coding with Undercover"
+  kind: "workshop"
   event_name: "RubyConf Austria 2026"
   date: "2026-05-30"
+  track: "Workshop"
+  video_provider: "not_published"
+  video_id: "jan-grodowski-rubyconf-austria-2026"
+  description: |-
+    Jan Grodowski shows how to use Undercover, a test coverage toolkit for agentic coding.
+  speakers:
+    - Jan Grodowski
+  additional_resources:
+    - name: "Undercover"
+      type: "link"
+      url: "https://undercover-ci.com/"
+
+- id: "carmine-paolino-rubyconf-austria-2026"
+  title: "Ruby Is the Best Language for Building AI Web Apps"
+  raw_title: "Ruby Is the Best Language for Building AI Web Apps — Carmine Paolino | RubyConf Austria 2026"
+  event_name: "RubyConf Austria 2026"
+  date: "2026-05-30"
+  published_at: "2026-07-20T08:07:48Z"
   track: "Main Stage"
-  video_provider: "scheduled"
-  video_id: "carmine-paolino-rubyconf-austria-2026"
-  description: ""
+  video_provider: "youtube"
+  video_id: "t1XAy8HKvnY"
+  description: |-
+    Carmine Paolino makes the case for Ruby as an excellent language for building applications around AI models. He compares RubyLLM with Python and JavaScript frameworks and demonstrates chat, streaming, multimodal input, tools, agents, and Rails integration.
   speakers:
     - Carmine Paolino
 
 - id: "dalma-boros-jess-sullivan-rubyconf-austria-2026"
   old_id: "dalma-jess-rubyconf-austria-2026"
   title: "Why You Should Go Surfing with Strangers: Creating Connection in the Ruby Community"
+  raw_title: "Why You Should Go Surfing with Strangers — Dalma Boros & Jess Sullivan | RubyConf Austria 2026"
   event_name: "RubyConf Austria 2026"
   date: "2026-05-30"
+  published_at: "2026-07-20T09:56:46Z"
   announced_at: "2025-12-27 12:05:00 UTC"
   track: "Main Stage"
-  video_provider: "scheduled"
-  video_id: "dalma-boros-jess-sullivan-rubyconf-austria-2026"
-  description: ""
+  video_provider: "youtube"
+  video_id: "tYkvHE_j-vI"
+  description: |-
+    Dalma Boros and Jess Sullivan share how saying yes to an unexpected surf trip led to deeper friendships, community projects, and renewed creative confidence. They contrast transactional networking with building lasting relationships through shared experiences.
   speakers:
     - Dalma Boros
     - Jess Sullivan
 
-- id: "dave-thomas-rubyconf-austria-2026"
+- id: "dave-thomas-keynote-rubyconf-austria-2026"
+  old_id: "dave-thomas-rubyconf-austria-2026"
   title: "Keynote: Start Writing Ruby"
   raw_title: "Start Writing Ruby: Classes Are Evil — Dave Thomas | RubyConf Austria 2026 Closing Keynote"
   kind: "keynote"
@@ -305,7 +398,8 @@
   speakers:
     - Dave Thomas
 
-- id: "chad-fowler-happy-birthday-rubyconf-austria-2026"
+- id: "happy-birthday-and-closing-remarks-rubyconf-austria-2026"
+  old_id: "chad-fowler-happy-birthday-rubyconf-austria-2026"
   title: "Happy Birthday and Closing Remarks"
   raw_title: "Chad Fowler - Happy Birthday"
   event_name: "RubyConf Austria 2026"
@@ -316,5 +410,20 @@
   video_id: "-8FcJl3lMyU"
   description: |-
     Chad Fowler plays Happy Birthday on saxophone and shares closing remarks about the Ruby community and the people who shaped his career.
+  speakers:
+    - Chad Fowler
+
+- id: "jazz-performance-rubyconf-austria-2026"
+  old_id: "chad-fowler-jazz-rubyconf-austria-2026"
+  title: "Jazz Performance"
+  raw_title: "Jazz: Chad Fowler — Live at Das MuTh | RubyConf Austria 2026"
+  event_name: "RubyConf Austria 2026"
+  date: "2026-05-30"
+  published_at: "2026-07-20T09:46:26Z"
+  track: "Main Stage"
+  video_provider: "youtube"
+  video_id: "PCoSQgjFcWE"
+  description: |-
+    Chad Fowler performs a closing jazz set on piano and saxophone and reflects on improvisation, music, and the people who shaped his career.
   speakers:
     - Chad Fowler
