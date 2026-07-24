@@ -20,6 +20,7 @@ module Events
         .order(start_date: :asc)
 
       @monthly_events = @events.reject { |e| e.date_precision == "year" }
+      @yearly_events = @events.select { |e| e.date_precision == "year" }
       @events_by_month = @monthly_events.group_by { |e| e.start_date&.month }
 
       @has_previous_year = @year > first_year

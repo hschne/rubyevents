@@ -8,6 +8,10 @@
   <%= render partial: "mobile_calendar", locals: {events_by_month: @events_by_month, year: @year} %>
   <%= render partial: "desktop_calendar", locals: {events_by_month: @events_by_month, year: @year} %>
 
+  <% if @yearly_events.any? %>
+    <%= render partial: "yearly_events", locals: {year: @year, events: @yearly_events} %>
+  <% end %>
+
   <div class="mt-6 flex flex-wrap items-center gap-x-2 gap-y-3">
     <p class="text-sm text-gray-500">
       <%= pluralize(@monthly_events.count, "event") %>
